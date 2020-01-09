@@ -4,11 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>KodFlix</h1>
+      <header>KodFlix</header>
+      <nav>Navbar</nav>
+      <aside>Menu</aside>
+      <article>Article</article>
+      <footer>Footer</footer>
     
     </div>
   );
-}
+
+  }
+
+
 
 export default App;
 
