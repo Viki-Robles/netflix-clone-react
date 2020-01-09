@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import film1 from './molly2.jpg';
+import film1 from './molly.jpg';
 
 function App() {
   return (
