@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>KodFlix</header>
+      <div className="container">
+      <h1>KodFlix</h1>
+      </div>
       <nav>Navbar</nav>
       <aside>Menu</aside>
       <article>Article</article>
