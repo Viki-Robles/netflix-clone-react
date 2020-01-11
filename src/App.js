@@ -29,7 +29,11 @@ function App() {
 
 
 <div className="container">
-  <div className="box box1"><h2>Black Mirror</h2></div>
+  <div className="box box1">
+    <div className="overlay">
+      <h2>Black Mirror</h2></div>
+    </div>
+
   <div className="box box2"><h2>Suits</h2></div>
   <div className="box box3"><h2>Witcher</h2></div>
   </div>
