@@ -31,54 +31,13 @@ h2 {
 
 .container {
   display: flex;
+
   
 }
 
-.item2 {
-  flex:1;
+.box {
+  flex:2;
 }
 
-.item3 {
-flex:1;
-}
-
-.item4 {
-flex:1;
-}
-
-.item5 {
-  flex:1;
-}
-
-.item6 {
-  flex:1;
-}
-
- 
-}
-
-.item1 {
-  flex:6;
-}
-
-.item2 {
-  flex:6;
-}
-
-.item3 {
-flex:6;
-}
-
-.item4 {
-flex:6;
-}
-
-.item5 {
-  flex:6;
-}
-
-.item6 {
-  flex:6;
-}
 
 
