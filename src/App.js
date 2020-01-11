@@ -28,7 +28,7 @@ function App() {
 <div className="box">
       <div className="item item1">
         <div className="blackmirror">Black Mirror
-        <img/>
+        <img src="black-mirror.jpg" class="blackmirror"/>
         </div> 
         </div>
   </div>
