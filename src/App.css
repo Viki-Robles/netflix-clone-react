@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
 
 h1 {
   color:red;
@@ -34,13 +42,12 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
-
-  
+ 
 }
 
 .box {
-  flex:1;
+  flex:3;
+  margin:50px;
 }
 
 
