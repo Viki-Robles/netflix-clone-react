@@ -39,21 +39,24 @@ h1 {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: space-evenly;
+  border: black;
   
 }
 
-.item1 {
-  background: url(../src/blackmirror.jpg);
-  margin:5px;
-  width:30%;
-  height: 80vh;
+.item {
+  flex-wrap: wrap;
+  border: 1px solid black;
 }
 
-.item2 {
-  background:
+.box {
+  box-sizing: border-box;
+  border:1px solid black;
+  flex-wrap: wrap;
+
+}
+
 
 h2 {
-  
+  color:black;
 }

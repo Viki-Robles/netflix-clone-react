@@ -22,38 +22,43 @@ function App() {
 </div>
 
 
-
+<section>
 <div className="container">
 
 
     
-  <div className="item item1"><h2>Black Mirror</h2></div> 
+  <div className="box">
+    <div className="item item1"><h2>Black Mirror</h2></div>
+  </div> 
        
+  <div className="box">
+    <div className="item item2"><h2>Suits</h2></div>
+  </div>
 
+  <div className="box">
+    <div className="item item3"><h2>Witcher</h2></div>
+  </div>
 
+  <div className="box">
+    <div className="item item4"><h2>Notebook</h2></div>
+  </div>
 
+  <div className="box">
+    <div className="item item5"><h2>Shadow Hunters</h2></div>
+  </div>
 
-     <div className="item item2">
-     <div className="suits"><h2>Suits</h2></div>
-     </div>
-
-      
-
-
-
-      <div className="item item3">Witcher</div>
-      <div className="item item4">Notebook</div>
-      <div className="item item5"><h2></h2></div>
-      <div className="item item6"><h2></h2></div>
+  <div className="box">
+    <div className="item item6"><h2>Money Heist</h2></div>
+  </div>
 
 
 </div>
 
+</section>
 
 
 
-
-
+<section>
       <footer id="footer">
         <div className="row">
           <ul className="footer-nav">
@@ -70,7 +75,7 @@ function App() {
       </div>
 
       </footer>
-    
+      </section>
       </body>
     </div>
  
