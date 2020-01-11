@@ -9,6 +9,25 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: black;
+  color:white;
+}
+
+aside {
+  background-color: black;
+  color:white;
+}
+
+article {
+  background-color: black;
+  color:white;
+}
+
+nav {
+  background-color: black;
+  color:white;
+}
 
 h1 {
   color:red;
@@ -18,10 +37,7 @@ h1 {
   padding-bottom: 60px;
   padding-top:20px;
   text-align: center;
-  
-  
 }
-
 
 
 h1 {display: block;}
@@ -29,6 +45,7 @@ h1 {display: block;}
 .flex-container {
   display:grid;
   grid-template-columns: 1fr 3fr;
+  font-size:23px;
 }
 
 .img {
@@ -116,6 +133,12 @@ h2 {
 
 }
 
+@media only screen and(max-width:600px){
+
+  .container{
+    display:block;
+  }
+}
 
  
 

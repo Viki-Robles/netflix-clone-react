@@ -9,12 +9,15 @@ function App() {
 
 <h1>KodFlix</h1>
 
-<div>Header</div>
-<div>Nav bar</div>
-<div className="flex-container"></div>
-<div>Menu</div>
-<div>Article</div>
-<footer>Footer</footer>
+
+<nav>Nav bar</nav>
+
+<div className="container">
+  <aside>Menu</aside>
+  <article>Article</article>
+</div>
+
+
 
 
 
@@ -38,7 +41,7 @@ function App() {
 </div>
 
 
-     
+<footer>Footer</footer>  
      
      
 </div>
