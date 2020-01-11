@@ -28,27 +28,27 @@ function App() {
 
     
   <div className="box">
-    <div className="item item1"><h2>Black Mirror</h2></div>
+    <div className="item1"><h2>Black Mirror</h2></div>
   </div> 
        
   <div className="box">
-    <div className="item item2"><h2>Suits</h2></div>
+    <div className="item2"><h2>Suits</h2></div>
   </div>
 
   <div className="box">
-    <div className="item item3"><h2>Witcher</h2></div>
+    <div className="item3"><h2>Witcher</h2></div>
   </div>
 
   <div className="box">
-    <div className="item item4"><h2>Notebook</h2></div>
+    <div className="item4"><h2>Notebook</h2></div>
   </div>
 
   <div className="box">
-    <div className="item item5"><h2>Shadow Hunters</h2></div>
+    <div className="item5"><h2>Shadow Hunters</h2></div>
   </div>
 
   <div className="box">
-    <div className="item item6"><h2>Money Heist</h2></div>
+    <div className="item6"><h2>Money Heist</h2></div>
   </div>
 
 

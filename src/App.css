@@ -35,29 +35,27 @@ h2 {
 .menu {
   list-style: none;
   display: flex;
-  align-items: center;
-  
-  
+  align-items: center;  
 
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
- 
   flex-direction: row;
   flex-wrap: wrap;
-
-  
 }
 
 .box {
   box-sizing: border-box;
   border:1px solid black;
   flex-wrap: wrap;
-  flex: 6;
-  
-
 }
 
+.item1 {
+  flex:6;
+}
 
+.item2 {
+  flex:6;
+}
