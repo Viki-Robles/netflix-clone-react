@@ -35,6 +35,8 @@ h1 {
 
 h2 {
   color:black;
+  
+  
 }
 
 .container {
@@ -53,8 +55,43 @@ h2 {
 .box1 {
   background-image: url(../src/blackmirror.jpg);
   height:100vh;
-  background-size: inherit;
+  background-size: cover;
+  background-position: center;
 }
 
 
+.box2 {
+  background-image: url(../src/suits.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
 
+}
+
+.box3 {
+  background-image: url(../src/witcher.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.box4 {
+  background-image: url(../src/bleach.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.box5 {
+  background-image: url(../src/lucifer.jpeg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.box6 {
+  background-image: url(../src/fairytail.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+}

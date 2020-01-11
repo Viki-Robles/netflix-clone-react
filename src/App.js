@@ -30,9 +30,9 @@ function App() {
   </div>
 
 <div className="container">
-  <div className="box box4"><h2>Notebook</h2></div>
-  <div className="box box5"><h2>Shadow Hunters</h2></div>
-  <div className="box box6"><h2>Money Heist</h2></div>
+  <div className="box box4"><h2>Bleach</h2></div>
+  <div className="box box5"><h2>Lucifer</h2></div>
+  <div className="box box6"><h2>Fairytail</h2></div>
 </div>
 
 
