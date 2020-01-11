@@ -32,6 +32,7 @@ h1 {
 .menu {
   list-style: none;
   display: flex;
+  align-items: center;
   
 
 }
