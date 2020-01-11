@@ -10,6 +10,7 @@ function App() {
   <h1>KodFlix</h1>
 <img src={molly}/>
 
+<div className="row">
 <div className="menu">
    <ul className="menubar">
      <li><a>Home</a></li>
@@ -18,7 +19,7 @@ function App() {
      <li><a>Articles</a></li>
      </ul>
 </div>
-
+</div>
 
 
 
