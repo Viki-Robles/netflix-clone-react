@@ -19,13 +19,13 @@ function App() {
 
 
 
-
-
-
-
-
-
 <img src={molly} alt='molly logo'/>
+
+
+
+
+
+
 
 
 <div className="container">
