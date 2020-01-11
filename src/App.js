@@ -27,6 +27,9 @@ function App() {
   <div className="box"><h2>Black Mirror</h2></div>   
   <div className="box"><h2>Suits</h2></div>
   <div className="box"><h2>Witcher</h2></div>
+</div>
+
+<div className="container">
   <div className="box"><h2>Notebook</h2></div>
   <div className="box"><h2>Shadow Hunters</h2></div>
   <div className="box"><h2>Money Heist</h2></div>
