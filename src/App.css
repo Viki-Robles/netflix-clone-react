@@ -28,6 +28,10 @@ h1 {
   
 }
 
+h2 {
+  color:black;
+}
+
 .menu {
   list-style: none;
   display: flex;
@@ -41,22 +45,19 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   border: black;
-  
-}
-
-.item {
+  flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid black;
+  
+  
 }
 
 .box {
   box-sizing: border-box;
   border:1px solid black;
   flex-wrap: wrap;
+  flex: 1;
+  
 
 }
 
 
-h2 {
-  color:black;
-}
