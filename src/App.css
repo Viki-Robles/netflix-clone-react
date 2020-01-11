@@ -29,22 +29,35 @@ h2 {
   color:black;
 }
 
-.menu {
-  list-style: none;
-  display: flex;
-  align-items: center;  
-
-}
-
 .container {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+ 
+}
+
+.item1 {
   flex:6;
 }
 
-.box {
-  display: block;
-  flex: 1;
+.item2 {
+  flex:6;
 }
+
+.item3 {
+flex:6;
+}
+
+.item4 {
+flex:6;
+}
+
+.item5 {
+  flex:6;
+}
+
+.item6 {
+  flex:6;
+}
+
+

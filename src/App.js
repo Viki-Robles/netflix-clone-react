@@ -22,7 +22,7 @@ function App() {
 </div>
 
 
-<section>
+
 <div className="container">
 
 
@@ -54,7 +54,7 @@ function App() {
 
 </div>
 
-</section>
+
 
 
 
