@@ -30,8 +30,9 @@ h1 {
 }
 
 .menu {
-  float:left;
+  float:right;
   list-style: none;
+  text-align: center;
 
 }
 
