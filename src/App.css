@@ -2,16 +2,31 @@
   text-align: center;
 }
 
+
+
 h1 {
   color:red;
   background-color: black;
   font-family: sans-serif;
   font-size: 50px;
-  margin: 0;
+  margin:0;
   font-style: inherit;
+  
 }
 
-img {
+
+.img {
   width:100%;
-  margin: 0 auto;
+  position:
+  
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.item {
+  
 }

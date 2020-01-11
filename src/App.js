@@ -1,16 +1,49 @@
 import React from 'react';
 import './App.css';
-import film1 from './molly.jpg';
+import molly from './molly.jpg';
 
 function App() {
   return (
   <div className="App">
-    <h1>KodFlix</h1>
-    <img src={film1}/>
-    <div className="container">
-      <nav className='nav'>Navbar</nav>
-      <aside>Menu</aside>
-      <article>Article</article>
+
+<body>
+  <h1>KodFlix</h1>
+<img src={molly}/>
+
+<div className="Menu">
+   <ul className="menubar">
+     <li><a>Home</a></li>
+     <li><a>Series</a></li>
+     <li><a>Films</a></li>
+     <li><a>Articles</a></li>
+     </ul>
+</div>
+
+
+
+
+<div className="container">
+
+<div className="row">
+      <div className="item1">
+        <div className="blackmirror">Black Mirror
+        </div> 
+        </div>
+  </div>
+
+
+
+      <div className="item item2">Suits</div>
+      <div className="item item3">Witcher</div>
+      <div className="item item4">Notebook</div>
+      <div className="item item5"></div>
+      <div className="item item6"></div>
+
+
+</div>
+
+
+
 
 
 
@@ -30,9 +63,11 @@ function App() {
       </div>
 
       </footer>
+    
+      </body>
     </div>
-
-    </div>
+ 
+   
   );
 
   }
