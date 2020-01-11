@@ -31,7 +31,7 @@ h1 {
 
 .container {
   display: flex;
-  flex-grow: 1;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
