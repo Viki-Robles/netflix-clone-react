@@ -7,7 +7,7 @@ function App() {
   <div className="App">
 
 
-  <h1>KodFlix</h1>
+<h1>KodFlix</h1>
 <img src={molly}/>
 
 <div className="row">
