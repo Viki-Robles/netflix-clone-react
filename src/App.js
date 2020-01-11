@@ -24,15 +24,20 @@ function App() {
 
 
 <div className="container">
-  <div className="box"><h2>Black Mirror</h2></div>   
-  <div className="box"><h2>Suits</h2></div>
-  <div className="box"><h2>Witcher</h2></div>
+  <div className="box">
+    <div className="blackmirror">
+    <h2>Black Mirror</h2></div>
+    </div>
+
+
+  <div className="box box2"><h2>Suits</h2></div>
+  <div className="box box3"><h2>Witcher</h2></div>
 </div>
 
 <div className="container">
-  <div className="box"><h2>Notebook</h2></div>
-  <div className="box"><h2>Shadow Hunters</h2></div>
-  <div className="box"><h2>Money Heist</h2></div>
+  <div className="box box4"><h2>Notebook</h2></div>
+  <div className="box box5"><h2>Shadow Hunters</h2></div>
+  <div className="box box6"><h2>Money Heist</h2></div>
 </div>
 
 
