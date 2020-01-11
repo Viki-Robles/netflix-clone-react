@@ -114,6 +114,17 @@ h2 {
   background-position: center;
 }
 
+@media(min-width:800px;) {
+  .container{
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
 footer {
   background-color: black;
   font-size: 70%;
