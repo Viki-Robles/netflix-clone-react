@@ -48,9 +48,13 @@ h2 {
 .box {
   flex:3;
   margin:50px;
-  border:black;
 }
 
+.box1 {
+  background-image: url(../src/blackmirror.jpg);
+  height:100vh;
+  background-size: inherit;
+}
 
 
 
