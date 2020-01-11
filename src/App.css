@@ -60,6 +60,7 @@ img {display:block;}
 h2 {
   color:white; 
   font-size: 30px;
+  text-align: center;
 }
 
 .container {
@@ -74,12 +75,23 @@ h2 {
 
 .overlay{
   display: none;
+  position:absolute;
+  bottom: 0;
+}
+
+.box:hover .overlay {
+  display: block;
+
 }
 
 .box {
   margin:20px;
   border-radius: 4px;
   padding:20px;
+  flex:1;
+  border:1px solid white;
+  position: relative;
+  
   
   
   

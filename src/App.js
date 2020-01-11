@@ -22,12 +22,6 @@ function App() {
 <img src={molly} alt='molly logo'/>
 
 
-
-
-
-
-
-
 <div className="container">
   <div className="box box1">
     <div className="overlay">
