@@ -8,14 +8,25 @@
   box-sizing: border-box;
 }
 
-.menu {
+.menu ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  color: black;
+}
+
+.menubar li {
+ margin-left:50px;
+ color:white;
+ font-size:22px;
+ padding-bottom: 60px;
+ font-family: sans-serif, "Arial";
+ padding-right:20px;
 
 }
 
-
+.menu {
+  background-color:black;
+}
 
 h1 {
   color:red;
@@ -24,6 +35,8 @@ h1 {
   font-size: 50px;
   margin:0;
   font-style: inherit;
+  padding-bottom: 60px;
+  padding-top:20px;
   
 }
 

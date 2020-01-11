@@ -8,9 +8,7 @@ function App() {
 
 
 <h1>KodFlix</h1>
-<img src={molly}/>
 
-<div className="row">
 <div className="menu">
    <ul className="menubar">
      <li><a>Home</a></li>
@@ -19,8 +17,9 @@ function App() {
      <li><a>Articles</a></li>
      </ul>
 </div>
-</div>
 
+
+<img src={molly} />
 
 
 <div className="container">
@@ -39,12 +38,11 @@ function App() {
 
 
 
-
       <footer id="footer">
         <div className="row">
           <ul className="footer-nav">
             <li><a href="#">Menu</a></li>
-            <li>Adress: 199 Eade Road</li>
+            <li>Address: 199 Eade Road</li>
             <li>Email: vasiliki.robles@gmail.com</li>
             <li>Contact: +44 743 857 7974</li>
           </ul>
