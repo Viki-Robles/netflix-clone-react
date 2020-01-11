@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import molly from './molly.jpg';
+import blackmirror from './blackmirror.jpg'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 
 <div className="container">
   <div className="box">
-    <div className="blackmirror">
+    <img src={blackmirror}/>
     <h2>Black Mirror</h2></div>
     </div>
 

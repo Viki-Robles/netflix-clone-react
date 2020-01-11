@@ -48,11 +48,9 @@ h2 {
 .box {
   flex:3;
   margin:50px;
+  border:black;
 }
 
-.box .blackmirror {
-  background-image: url(../src/blackmirror.jpg);
-}
 
 
 
