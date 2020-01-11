@@ -35,27 +35,6 @@ function App() {
 </div>
 
 
-
-
-
-      <footer id="footer">
-        <div className="row">
-          <ul className="footer-nav">
-            <li><a href="#">Menu</a></li>
-            <li>Address: 199 Eade Road</li>
-            <li>Email: vasiliki.robles@gmail.com</li>
-            <li>Contact: +44 743 857 7974</li>
-          </ul>
-        </div>
-
-      <div className="copywrite">
-        <p>Copywriting 2020. KodFlix all rights reserved.</p>
-
-      </div>
-     
-
-
-      </footer>
      
      
      

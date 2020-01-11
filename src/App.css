@@ -17,12 +17,14 @@
 }
 
 .menubar li {
- margin-left:50px;
  color:white;
  font-size:22px;
  padding-bottom: 60px;
  font-family: sans-serif, "Arial";
- padding-right:20px;
+ margin-left:50px;
+padding-right:20px;
+
+ 
 
 }
 
@@ -61,14 +63,16 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: black;
- 
+  margin:0;
+  width:100%;
+
 }
 
 .box {
   flex:1;
   margin:20px;
   border-radius: 4px;
-  
+  padding:20px;
   
 }
 
@@ -77,6 +81,7 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
+  flex:3;
 }
 
 
@@ -85,6 +90,8 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
+  flex:3;
+
 
 }
 
@@ -93,6 +100,8 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
+  flex:3;
+
 }
 
 .box4 {
@@ -100,6 +109,8 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
+  flex:3;
+
 }
 
 .box5 {
@@ -107,6 +118,8 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
+  flex:3;
+
 }
 
 .box6 {
@@ -114,31 +127,14 @@ h2 {
   height:90vh;
   background-size: cover;
   background-position: center;
-}
-
-@media(min-width:800px;) {
-  .container{
-    flex-direction: row;
-  }
-}
-
-
-
-
-
-
-footer {
-  background-color: black;
-  font-size: 70%;
-  margin-top: 50px;
-  padding-bottom: 0px;
+  flex:3;
 
 }
 
-.footer-nav li {
-  list-style: none;
-  float: left;
-  text-decoration: none;
-  padding:80px 0px 0px 80px;
-  padding-bottom:-40px;
-}
+
+
+
+
+
+
+
