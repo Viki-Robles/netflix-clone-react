@@ -10,7 +10,7 @@ function App() {
   <h1>KodFlix</h1>
 <img src={molly}/>
 
-<div className="Menu">
+<div className="menu">
    <ul className="menubar">
      <li><a>Home</a></li>
      <li><a>Series</a></li>
@@ -24,16 +24,26 @@ function App() {
 
 <div className="container">
 
-<div className="row">
-      <div className="item1">
+<div className="box">
+      <div className="item item1">
         <div className="blackmirror">Black Mirror
+        <img/>
         </div> 
         </div>
   </div>
 
 
+<div className="box">
+     <div className="item item2">
+     <div className="suits">Suits
+     <img/>
+     </div>
+     </div>
+</div>
+      
 
-      <div className="item item2">Suits</div>
+
+
       <div className="item item3">Witcher</div>
       <div className="item item4">Notebook</div>
       <div className="item item5"></div>

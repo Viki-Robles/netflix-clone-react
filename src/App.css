@@ -29,12 +29,19 @@ h1 {
   
 }
 
+.menu {
+  float:left;
+  list-style: none;
+
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  border:1px;
 }
 
 .item {
-  
+  justify-content: center;
 }
