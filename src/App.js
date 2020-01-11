@@ -9,14 +9,7 @@ function App() {
 
 <h1>KodFlix</h1>
 
-<div className="flex-container">
-   <div className="navbar">Menu</div>
-   <div className="Menu"></div>
-   <div className="aside"></div>
-   <div className="footer"></div>
-  
 
-</div>
 
 
 <img src={molly} alt='molly logo'/>
