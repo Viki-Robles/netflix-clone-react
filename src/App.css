@@ -25,7 +25,6 @@ h1 {
 
 .img {
   width:100%;
-  position:
   
 }
 
@@ -33,6 +32,7 @@ h1 {
   list-style: none;
   display: flex;
   align-items: center;
+  
   
 
 }
@@ -44,6 +44,17 @@ h1 {
   
 }
 
-.item {
-  justify-content: center;
+.item1 {
+  background: url(../src/blackmirror.jpg);
+  margin:5px;
+  width:30%;
+  height: 80vh;
+}
+
+.item2 {
+  background:url(../src/)
+}
+
+h2 {
+  color: white;
 }

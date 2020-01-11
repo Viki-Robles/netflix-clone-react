@@ -25,22 +25,20 @@ function App() {
 
 <div className="container">
 
-<div className="box">
-      <div className="item item1">
-        <div className="blackmirror">Black Mirror
-        <img src="black-mirror.jpg" class="blackmirror"/>
-        </div> 
-        </div>
-  </div>
+
+    
+  <div className="item item1"><h2>Black Mirror</h2></div> 
+       
 
 
-<div className="box">
+
+
      <div className="item item2">
      <div className="suits">Suits
-     <img/>
+    
      </div>
      </div>
-</div>
+
       
 
 
