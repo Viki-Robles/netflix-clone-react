@@ -2,7 +2,15 @@
   text-align: center;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  text-rendering: optimizeLegibility;
+}
 
 h1 {
   color:red;
