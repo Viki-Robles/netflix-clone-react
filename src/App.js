@@ -34,9 +34,7 @@ function App() {
 
 
      <div className="item item2">
-     <div className="suits">Suits
-    
-     </div>
+     <div className="suits"><h2>Suits</h2></div>
      </div>
 
       
@@ -45,8 +43,8 @@ function App() {
 
       <div className="item item3">Witcher</div>
       <div className="item item4">Notebook</div>
-      <div className="item item5"></div>
-      <div className="item item6"></div>
+      <div className="item item5"><h2></h2></div>
+      <div className="item item6"><h2></h2></div>
 
 
 </div>
