@@ -44,10 +44,10 @@ h2 {
 .container {
   display: flex;
   justify-content: space-evenly;
-  border: black;
+ 
   flex-direction: row;
   flex-wrap: wrap;
-  
+
   
 }
 
@@ -55,7 +55,7 @@ h2 {
   box-sizing: border-box;
   border:1px solid black;
   flex-wrap: wrap;
-  flex: 1;
+  flex: 6;
   
 
 }
