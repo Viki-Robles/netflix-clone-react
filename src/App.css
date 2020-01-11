@@ -8,9 +8,6 @@
   box-sizing: border-box;
 }
 
-html {
-  text-rendering: optimizeLegibility;
-}
 
 h1 {
   color:red;
@@ -44,29 +41,10 @@ h2 {
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  flex:1;
+  flex:6;
 }
 
-.item1 {
-  flex:1;
-}
-
-.item2 {
-  flex:1;
-}
-
-.item3 {
-flex:1;
-}
-
-.item4 {
-flex:1;
-}
-
-.item5 {
-  flex:1;
-}
-
-.item6 {
-  flex:1;
+.box {
+  display: block;
+  flex: 1;
 }
