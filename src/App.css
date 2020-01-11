@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  color:black;
+  color:white;
   
   
 }
@@ -69,7 +69,7 @@ h2 {
 }
 
 .box3 {
-  background-image: url(../src/witcher.jpg);
+  background-image: url(../src/witcherbig.jpg);
   height:100vh;
   background-size: cover;
   background-position: center;
