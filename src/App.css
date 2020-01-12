@@ -33,14 +33,18 @@ h1 {
   padding-bottom: 60px;
   padding-top:20px;
   text-align: center;
-  
-
-
-
 }
 
 
 h1 {display: block;}
+
+h2 {
+  color:white; 
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+
+}
 
 .flex-container {
   display:grid;
@@ -58,34 +62,42 @@ h1 {display: block;}
 
 img {display:block;}
 
-h2 {
-  color:white; 
-  font-size: 40px;
-  text-align: center;
-  justify-content: center;
-
+.box {
+  margin:30px;
+  border-radius: 4px;
+  padding:30px;
+  flex:1;
+  border:1px solid white;
+  position: relative;
+  transform-style: preserve-3d;
 }
 
-.box5 h2 {
-  color: black;
-}
+
 
 .container {
+  display:flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: rgb(24, 22, 22);
   display: flex;
   margin:0;
   position: relative;
   
 }
 
-.overlay{
+.container .box {
+  box-shadow: 0 5px 15px rgba(136, 39, 39, 0.1);
+}
+
+.overlay {
   display: none;
   position:absolute;
-  bottom: 0;
   transition-delay: 0.1s;
+  left:0;
+  bottom:-100px;
+  width:100%;
+  margin-bottom:10px;
+  opacity: 0.5;
   
 }
 
@@ -93,17 +105,12 @@ h2 {
 
 .box:hover .overlay {
   display: block;
+  opacity: .6;
+  bottom:0;
 
 }
 
-.box {
-  margin:20px;
-  border-radius: 4px;
-  padding:20px;
-  flex:1;
-  border:1px solid white;
-  position: relative;
-}
+
 
 .box1 {
   background-image: url(../src/blackmirror.jpg);
@@ -119,8 +126,10 @@ h2 {
   height:90vh;
   background-size: cover;
   flex:1;
+}
 
-
+.box5 h2 {
+  color: black;
 }
 
 .box3 {
@@ -155,8 +164,8 @@ h2 {
 
 }
 
-@media only screen and(max-width:600px){
-  .body {
+@media only screen and(max-width:800px){
+  .container {
     flex-direction: column;
   }
 }
