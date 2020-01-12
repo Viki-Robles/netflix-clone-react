@@ -69,7 +69,6 @@ img {display:block;}
   flex:1;
   border:1px solid white;
   position: relative;
-  transform-style: preserve-3d;
 }
 
 
@@ -88,7 +87,7 @@ img {display:block;}
 .overlay {
   display: none;
   position:absolute;
-  transition-delay: 0.1s;
+  transition-delay: 6s;
   left:0;
   bottom:-100px;
   width:100%;
@@ -104,10 +103,7 @@ img {display:block;}
 
 }
 
-.container:hover,
-.container:active {
 
-}
 
 
 
