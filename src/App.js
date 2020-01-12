@@ -6,7 +6,7 @@ function App() {
   return (
   <div className="App">
 
-
+<body>
 <h1>KodFlix</h1>
 
 
@@ -44,7 +44,8 @@ function App() {
     </div></div>
 
   <div className="box box5">
-    <div><h2>Lucifer</h2></div>
+    <div className="overlay">
+      <h2>Lucifer</h2></div>
     </div>
 
   <div className="box box6">
@@ -54,7 +55,7 @@ function App() {
 
 
 <footer>Footer</footer>  
-     
+</body>  
      
 </div>
  
