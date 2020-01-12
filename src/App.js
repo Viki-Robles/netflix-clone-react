@@ -9,7 +9,6 @@ function App() {
       <body>
         <h1>KodFlix</h1>
 
-
         <nav>Nav bar</nav>
         <div className="container">
           <aside>Menu</aside>
@@ -25,9 +24,9 @@ function App() {
         </div>
 
         <div className="container">
-          <Movietitle name="Bleach" picture="" />
-          <Movietitle name="Lucifer" picture="" />
-          <Movietitle name="Fairytail" picture="" />
+          <Movietitle name="Bleach" picture="box box4" />
+          <Movietitle name="Lucifer" picture="box box5" />
+          <Movietitle name="Fairytail" picture="box box6" />
         </div>
 
         <footer>Footer</footer>
