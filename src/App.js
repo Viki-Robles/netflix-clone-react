@@ -16,18 +16,7 @@ function App() {
         </div>
 
         <img src={molly} className="header-image" alt='molly logo' />
-
-        <div className="container">
-          <Movietitle name="Black Mirror" picture="box box1" />
-          <Movietitle name="Suits" picture="box box2" />
-          <Movietitle name="The Witcher" picture="box box3" />
-        </div>
-
-        <div className="container">
-          <Movietitle name="Bleach" picture="box box4" />
-          <Movietitle name="Lucifer" picture="box box5" />
-          <Movietitle name="Fairytail" picture="box box6" />
-        </div>
+        <Gallery/>
 
         <footer>Footer</footer>
       </body>
@@ -45,7 +34,28 @@ function Movietitle(props) {
         <h2>{props.name}</h2>
       </div>
     </div>
+
+
+
   );
+}
+
+function Gallery(props) {
+  return (
+    <div className="container">
+          <Movietitle name="Black Mirror" picture="box box1"/>
+          <Movietitle name="Suits" picture="box box2" />
+          <Movietitle name="The Witcher" picture="box box3" />
+        </div>
+
+        <div className="container">
+          <Movietitle name="Bleach" picture="box box4" />
+          <Movietitle name="Lucifer" picture="box box5" />
+          <Movietitle name="Fairytail" picture="box box6" />
+        </div>
+
+  );
+  
 }
 
 
