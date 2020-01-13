@@ -17,10 +17,10 @@ function App() {
 
       <img src={molly} className="header-image" alt='molly logo' />
 
-      
 
 
-     {/* <div className="container">
+
+      {/* <div className="container">
 
         <MovieTitle name="Black Mirror" picture="box box1" />
         <MovieTitle name="Suits" picture="box box2" />
@@ -35,7 +35,8 @@ function App() {
         <MovieTitle name="Fairytail" picture="box box6" />
       </div>*/}
 
-Gallery()
+      <Gallery />
+
     </div>
 
 
@@ -46,19 +47,19 @@ Gallery()
 
 function MovieTitle(props) {
   return (
-  <div className={props.picture}>
-    <div className="overlay">
-      <h2>{props.name}</h2>
+    <div className={props.picture}>
+      <div className="overlay">
+        <h2>{props.name}</h2>
+      </div>
     </div>
-  </div>
   );
 }
 
 
-function Gallery () {
+function Gallery() {
   return (
-    <React.Fragment>
-    <div className="container">
+    <>
+      <div className="container">
 
         <MovieTitle name="Black Mirror" picture="box box1" />
         <MovieTitle name="Suits" picture="box box2" />
@@ -72,16 +73,22 @@ function Gallery () {
         <MovieTitle name="Lucifer" picture="box box5" />
         <MovieTitle name="Fairytail" picture="box box6" />
       </div>
-      </React.Fragment>
+    </>
+  );
+}
 
+/*
+
+function Details () {
+  return (
 
     
-
 
   );
 }
 
 
+*/
 
 
 
