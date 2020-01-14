@@ -1,6 +1,6 @@
 export default function Gallery() {
     return (
-      <>
+      
         <div className="container">
   
           <MovieTitle name="Black Mirror" picture="box box1" />
@@ -15,6 +15,6 @@ export default function Gallery() {
           <MovieTitle name="Lucifer" picture="box box5" />
           <MovieTitle name="Fairytail" picture="box box6" />
         </div>
-      </>
+      
     );
   }
