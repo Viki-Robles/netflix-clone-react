@@ -105,7 +105,7 @@ img {display:block;}
 }
 
 .box1 {
-  background-image: url(../src/blackmirror.jpg);
+  background-image: url(../src/BlackMirror.jpg);
   height:90vh;
   background-size: cover;
   background-position: center;
@@ -114,7 +114,7 @@ img {display:block;}
 
 
 .box2 {
-  background-image: url(../src/suits.jpg);
+  background-image: url(../src/Suits.jpg);
   height:90vh;
   background-size: cover;
   
@@ -125,7 +125,7 @@ img {display:block;}
 }
 
 .box3 {
-  background-image: url(../src/witcherbig.jpg);
+  background-image: url(../src/TheWitcher.jpg);
   height:90vh;
   background-size: cover;
   
@@ -141,7 +141,7 @@ img {display:block;}
 }
 
 .box5 {
-  background-image: url(../src/lucifer.jpeg);
+  background-image: url(../src/Lucifer.jpg);
   height:90vh;
   background-size: cover;
   
@@ -149,7 +149,7 @@ img {display:block;}
 }
 
 .box6 {
-  background-image: url(../src/fairytail.jpg);
+  background-image: url(../src/FairyTail.jpg);
   height:90vh;
   background-size: cover;
   
