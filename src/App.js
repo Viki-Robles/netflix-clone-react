@@ -35,7 +35,9 @@ function App() {
         <MovieTitle name="Fairytail" picture="box box6" />
       </div>*/}
 
-      <Gallery />
+      <Gallery>
+       
+      </Gallery>
 
     </div>
 
@@ -69,7 +71,7 @@ function Gallery() {
 
       <div className="container">
 
-        <MovieTitle name="Bleach" picture="box box4" />
+        <MovieTitle name="Bleach" picture="box box4"/>
         <MovieTitle name="Lucifer" picture="box box5" />
         <MovieTitle name="Fairytail" picture="box box6" />
       </div>
@@ -77,18 +79,26 @@ function Gallery() {
   );
 }
 
-/*
 
-function Details () {
+/*
+function Details (){
   return (
+    
+
+<Gallery>
+
+<a href = "http://localhost:3000/details" title="Hello, this will be the 
+details page for each Movie & TV show :)"/>
+
+/>
 
     
 
   );
 }
 
-
 */
+
 
 
 
