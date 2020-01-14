@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
       <img src={molly} alt='molly logo'/>
+      
       <Gallery/>
 
       </div>
