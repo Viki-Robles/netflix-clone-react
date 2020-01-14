@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Gallery from './Gallery';
-import MovieTitle from './MovieTitle';
+
 import molly from '/MollyLogo.png';
 
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
       <img src={molly} alt='molly logo'/>
-      
+
       <Gallery/>
 
       </div>
