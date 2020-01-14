@@ -1,4 +1,4 @@
-function Gallery() {
+export function Gallery() {
     return (
       <>
         <div className="container">
