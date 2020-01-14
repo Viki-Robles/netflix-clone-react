@@ -51,9 +51,9 @@ render() {
   );
 
 }
+}
 
-
-
+export default App;
 
 
 
@@ -79,7 +79,7 @@ details page for each Movie & TV show :)"/>
 
 
 
+ 
 
 
-export default App;
 

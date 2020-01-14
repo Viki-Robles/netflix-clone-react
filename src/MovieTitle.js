@@ -1,4 +1,4 @@
-export function MovieTitle(props) {
+export default function MovieTitle(props) {
     return (
       <div className={props.picture}>
         <div className="overlay">
