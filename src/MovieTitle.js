@@ -11,6 +11,10 @@ export default function MovieTitle(props) {
       </div>
     </div>
     </Link>
+
+
+
+   
 </>
   );
 }

@@ -9,6 +9,7 @@ import Gallery from './Gallery';
 
 
 
+
 class App extends Component {
   render() {
     return (
@@ -30,17 +31,18 @@ export default App;
 
 
 /*
-Background image
-        <h1>KodFlix</h1>
-        <img src={molly} alt='molly logo' />
-        <Route exact path='/' component={Gallery}/>
-        <Route exact path='/details' component={Details}/>
 
+<img src={molly} alt='molly logo' />
 
+ <Link to='./BlackMirror' className="Black Mirror">
+    <MovieTitle name="Black Mirror" picture="box box1" />
+    </Link>
 
+<Route exact path='/BlackMirror' component={BlackMirror}/>
 */
 
 
+    
 
 
 
