@@ -33,32 +33,30 @@ h1 {
   padding-bottom: 60px;
   padding-top:20px;
   text-align: center;
+  justify-content: center;
+
+  
 }
 
-
 h1 {display: block;}
+
+
 
 h2 {
   color:white; 
   font-size: 40px;
   text-align: center;
   justify-content: center;
-  
+  position: absolute;
+  margin-left: 30%;
   
 
-}
-
-.flex-container {
-  display:grid;
-  grid-template-columns: 1fr 3fr;
-  font-size:23px;
 }
 
 
 img {
   width:100%;
   height:300vh;
-  
   
 }
 
@@ -71,8 +69,8 @@ img {display:block;}
   flex:1;
   border:1px solid white;
   position: relative;
+ 
 }
-
 
 
 .container {
@@ -80,35 +78,29 @@ img {display:block;}
   flex-direction: row;
   justify-content: space-evenly;
   background-color:black;
-  display: flex;
   margin:0;
   position: relative;
-  
+
 }
 
 .overlay {
   display: none;
   position:absolute;
-  transition: .5s ease;
   left:0;
   bottom:0;
-  right:0;
   width:100%;
   opacity: 0.5;
   background-color: firebrick; 
-  height:0;
+  
+  
 }
 
 .box:hover .overlay {
   display: block;
-  opacity: .6;
-  bottom:0;
-  height:15%;
-
+  height: 15%;
+  
+  
 }
-
-
-
 
 
 .box1 {
@@ -116,6 +108,9 @@ img {display:block;}
   height:90vh;
   background-size: cover;
   background-position: center;
+ 
+  
+  
   
 }
 
