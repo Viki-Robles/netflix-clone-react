@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function MovieTitle(props) {
   return (
 <>
-<Link to='./details' className="box">
+<Link to={'/' + props.id} className="box">
     <div className={props.picture}>
       <div className="overlay">
         <h2>{props.name}</h2>
@@ -12,8 +12,7 @@ export default function MovieTitle(props) {
     </div>
     </Link>
 
-
-
+    
    
 </>
   );

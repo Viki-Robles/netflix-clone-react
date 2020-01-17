@@ -17,7 +17,7 @@ class App extends Component {
         <div className="App">
           <h1>KodFlix</h1>
           <Route exact path='/' component={Gallery} />
-          <Route exact path='/details' component={Details} />
+          <Route exact path='/:details' component={Details} />
         </div>
       </Router>
 
@@ -38,7 +38,17 @@ export default App;
     <MovieTitle name="Black Mirror" picture="box box1" />
     </Link>
 
-<Route exact path='/BlackMirror' component={BlackMirror}/>
+<Route exact path='/blackMirror' component={BlackMirror}/>
+
+<Link to='./blackMirror' className="box box1">
+    <div className={props.picture}>
+      <div className="overlay">
+        <h2>{props.name}</h2>
+      </div>
+    </div>
+    </Link>
+
+    
 */
 
 
