@@ -8,8 +8,6 @@ import Gallery from './Gallery';
 
 
 
-
-
 class App extends Component {
   render() {
     return (
