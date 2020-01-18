@@ -63,8 +63,9 @@ img {
 img {display:block;}
 
 .box {
+  flex-wrap: wrap;
+  flex-basis: 120%;
   margin:10px;
-  
   border-radius: 4px;
   padding:0;
   flex:1;
@@ -75,10 +76,8 @@ img {display:block;}
 
 
 .container {
+  flex-wrap: wrap;
   display:flex;
-
-  
-
   flex-direction: row;
   justify-content: space-evenly;
   background-color:black;
