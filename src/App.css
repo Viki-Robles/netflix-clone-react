@@ -63,22 +63,20 @@ img {
 img {display:block;}
 
 .box {
-  flex-wrap: wrap;
-  flex-basis: 120%;
+  flex-basis: 120px;
   margin:10px;
   border-radius: 4px;
   padding:0;
-  flex:1;
   border:1px solid black;
   position: relative;
+  flex:1;
  
 }
 
 
 .container {
-  flex-wrap: wrap;
   display:flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color:black;
   margin:0;
