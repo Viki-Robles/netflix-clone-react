@@ -14,9 +14,10 @@ export default function Gallery() {
       <div className="container">
 
         <MovieTitle id="bleach" name="Bleach" picture="box box4" />
-        <MovieTitle id="lucifer" name="Lucifer" picture="box box5" />
+        <MovieTitle id="lacasadepapel" name="La Casa De Papel" picture="box box5" />
         <MovieTitle id="fairytail" name="Fairytail" picture="box box6" />
       </div>
     </div>
   );
 }
+
