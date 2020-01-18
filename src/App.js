@@ -14,8 +14,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <h1>KodFlix</h1>
-          <Route exact path='/' Component={Gallery}/>
-          <Route exact path='/:details' Component={Details}/>
+          <Route exact path='/' component={Gallery}/>
+          <Route exact path='/:details' component={Details}/>
           
         </div>
       </Router>
