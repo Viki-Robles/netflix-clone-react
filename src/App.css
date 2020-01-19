@@ -63,7 +63,7 @@ img {
 img {display:block;}
 
 .box {
-  flex-basis: 120px;
+  flex-basis: 50px;
   margin:10px;
   border-radius: 4px;
   padding:0;
