@@ -63,7 +63,8 @@ img {
 img {display:block;}
 
 .box {
-  flex-basis: 50px;
+  /*flex-basis: 50px;
+  flex:1;*/
   margin:10px;
   border-radius: 4px;
   padding:0;
@@ -75,20 +76,22 @@ img {display:block;}
 
 
 .container {
-  display:flex;
-  flex-wrap: wrap;
+  /*display:flex;
+  flex-wrap: wrap;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:auto;
   justify-content: space-evenly;
   background-color:black;
   margin:0;
-  position: relative;
-
 }
 
 .overlay {
-  display: none;
+  transition:bottom ease 1s;
+  /*display: none;*/
   position:absolute;
   left:0;
-  bottom:0;
+  bottom:-100px;
   width:100%;
   opacity: 0.5;
   background-color: firebrick; 
@@ -100,6 +103,7 @@ img {display:block;}
 .box:hover .overlay {
   display: block;
   height: 15%;
+  bottom:0;
   
   
 }
@@ -129,9 +133,6 @@ img {display:block;}
   
 }
 
-.box5 h2 {
-  color: black;
-}
 
 .box3 {
   background-image: url(../src/TheWitcher.jpg);
