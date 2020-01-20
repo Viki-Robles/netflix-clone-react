@@ -53,8 +53,9 @@ h2 {
 
 }
 .background-image {
-background-image: url(./MollyLogo.jpg);
-
+background-image: url("./MollyLogo.jpg");
+width:100%;
+height:300vh;
 }
 
 img {
