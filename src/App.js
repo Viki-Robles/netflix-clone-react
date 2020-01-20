@@ -16,11 +16,11 @@ class App extends Component {
 
           <h1>KodFlix</h1>
           <div className="background-image">
-          {/* <img src={molly} alt='molly logo' /> */}
-          </div>
-
           <Route exact path='/' component={Gallery}/>
           <Route exact path='/:details' component={Details}/>
+          </div>
+
+         
 
 
         </div>
@@ -34,13 +34,6 @@ class App extends Component {
 
 export default App;
 
-
-/*
-
-<img src={molly} alt='molly logo' />
-import molly from './MollyLogo.jpg';
-
-*/
 
 
 

@@ -1,34 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*export default function getMovieTitle() {
+export default function getMovieTitle() {
 
     return [
        
@@ -42,5 +12,5 @@
 
     ];
 
-}*/
+}
 
