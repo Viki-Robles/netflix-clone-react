@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import molly from './MollyLogo.jpg';
 import Gallery from './Gallery';
 import Details from './Details';
+import molly from './MollyLogo.jpg';
 
 
 
@@ -13,10 +13,16 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+
           <h1>KodFlix</h1>
+          <div className="background-image">
+          {/* <img src={molly} alt='molly logo' /> */}
+          </div>
+
           <Route exact path='/' component={Gallery}/>
           <Route exact path='/:details' component={Details}/>
-          
+
+
         </div>
       </Router>
 
@@ -31,11 +37,14 @@ export default App;
 
 /*
 
-<img src={molly} alt='molly logo' />*/
+<img src={molly} alt='molly logo' />
+import molly from './MollyLogo.jpg';
+
+*/
 
 
 
-    
+
 
 
 

@@ -7,31 +7,39 @@ export default function Gallery() {
   return (
     <div>
       <div className="container">
-        
-        {
-          getMovietitle().map(MovieTitle => (
-            <MovieTitle key={MovieTitle.id}
-              id={MovieTitle.id}
-              name={MovieTitle.name}
-              picture={MovieTitle.picture} />
-          ))
-        }
+
+
+        <MovieTitle id="blackMirror"name="Black Mirror" picture="box box1" />
+        <MovieTitle id="suits"name="Suits" picture="box box2" />
+        <MovieTitle id="theWitcher"name="The Witcher" picture="box box3" />
+        <MovieTitle id="bleach"name="Bleach" picture="box box4" />
+        <MovieTitle id="la-casa-de-papel"name="La Casa De Papel" picture="box box5" />
+        <MovieTitle id="fairytail"name="Fairytail" picture="box box6" />
+
+
       </div>
-    
+
     </div>
 
   );
 }
 
 /*
-<MovieTitle id="blackMirror" name="Black Mirror" picture="box box1" />
+        <MovieTitle id="blackMirror" name="Black Mirror" picture="box box1" />
         <MovieTitle id="suits" name="Suits" picture="box box2" />
         <MovieTitle id="theWitcher" name="The Witcher" picture="box box3" />
         <MovieTitle id="bleach" name="Bleach" picture="box box4" />
         <MovieTitle id="lacasadepapel" name="La Casa De Papel" picture="box box5" />
         <MovieTitle id="fairytail" name="Fairytail" picture="box box6" />
 
-        import { render } from '@testing-library/react';
+      
 
+
+getMovieTitle().map(movieTitle => (
+            <MovieTitle key={movieTitle.id}
+              id={movieTitle.id}
+              name={movieTitle.name}
+              picture={movieTitle.picture} />
+          ))
 */
 

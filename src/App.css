@@ -45,14 +45,17 @@ h1 {display: block;}
 h2 {
   color:white; 
   font-size: 40px;
-  text-align: center;
   justify-content: center;
   position: absolute;
   margin-left:30%;
+  text-align: center;
   
 
 }
+.background-image {
+background-image: url(./MollyLogo.jpg);
 
+}
 
 img {
   width:100%;
@@ -87,22 +90,22 @@ img {display:block;}
 }
 
 .overlay {
-  transition:bottom ease 1s;
+  transition:bottom ease-in-out 1s;
   /*display: none;*/
   position:absolute;
   left:0;
   bottom:-100px;
   width:100%;
-  opacity: 0.5;
+  opacity: 0.6;
   background-color: firebrick; 
   text-align: center;
-  
+  border-radius: 1px;
   
 }
 
 .box:hover .overlay {
   display: block;
-  height: 15%;
+  height:15%;
   bottom:0;
   
   
