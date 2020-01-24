@@ -6,14 +6,14 @@ export default class Details extends Component {
   constructor() {
     super();
     this.state = {
-    welcomemessage: 'Welcome to Vickys App!! '
+        welcomeMessage: 'Welcome to Vickys App!! '
     };
   }
   
-  return () {
+  render () {
     return (
        <>
-    <h1>{this.state.welcomemessage}</h1>
+    <h1>{this.state.welcomeMessage}</h1>
     <Link to='/'><h1>Home</h1></Link>
    </>
 
