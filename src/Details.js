@@ -9,6 +9,12 @@ export default class Details extends Component {
         welcomeMessage: 'Welcome to Vickys App!! '
     };
   }
+
+  componentDidMount() {
+    setTimeout(() => {
+
+    }, 3000);
+  }
   
   render () {
     return (
