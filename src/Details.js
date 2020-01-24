@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
  
-export default class Details extends React.Component {
+export default class Details extends Component {
 
   constructor() {
     super();
-    this.state= {
+    this.state = {
     welcomemessage: 'Welcome to Vickys App!! '
     };
   }
