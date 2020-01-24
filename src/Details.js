@@ -1,13 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
  
 export default function Details() {
   return (
-    <div><h1>Welcome to Vicky's app!</h1></div>
+    <>
+    <h1>Welcome to Vicky's app!</h1>
+    <Link to='/'><h1>Home</h1></Link>
+   </>
   );
 }
 
 
+/*
+ class Message extends React.Component {
+   constructor() {
+     super();
+     this.state = 
+   }
+ }
 
+
+*/
 
 
 
