@@ -1,6 +1,37 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
  
+export default class Details extends React.Component {
+  
+  return () {
+    return (
+       <>
+    <h1>Welcome to Vicky's app!</h1>
+    <Link to='/'><h1>Home</h1></Link>
+   </>
+
+    );
+  }
+
+}
+
+
+/*
+export default class Details extends React.Component {
+  
+  return () {
+    return (
+       <>
+    <h1>Welcome to Vicky's app!</h1>
+    <Link to='/'><h1>Home</h1></Link>
+   </>
+
+    );
+  }
+
+}
+
+   
 export default function Details() {
   return (
     <>
@@ -9,16 +40,6 @@ export default function Details() {
    </>
   );
 }
-
-
-/*
- class Message extends React.Component {
-   constructor() {
-     super();
-     this.state = 
-   }
- }
-
 
 */
 

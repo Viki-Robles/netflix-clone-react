@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Gallery from './Gallery';
 import Details from './Details';
-import molly from './mollygame';
+import molly from './mollygame.jpg';
 
 
 
