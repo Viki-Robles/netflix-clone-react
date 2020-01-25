@@ -13,14 +13,16 @@ class App extends Component {
     return (
 
       <Router>
+
         <div className="App">
         <h1>KodFlix</h1>
+
           <div className="background-image">
-          <Route exact path='/' component={Gallery}/>
-          <Route exact path='/:details' component={Details}/>
+            <Route exact path='/' component={Gallery} />
+            <Route exact path='/:details' component={Details} />
           </div>
-          </div>
-         
+        </div>
+
 
 
       </Router>
@@ -40,7 +42,8 @@ export default App;
 
 
 
-
+/*        <h1>KodFlix</h1>
+ */
 
 
 

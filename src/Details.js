@@ -1,40 +1,40 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
- 
+
 export default class Details extends Component {
 
   constructor() {
     super();
     this.state = {
-        welcomeMessage: 'Welcome to Vickys App!! '
+      welcomeMessage: 'Welcome to Vickys App!! '
     };
   }
+
 
   componentDidMount() {
     setTimeout(() => {
       this.setState({
-          welcomeMessage :'The best is yet to come!'
-    });
+       welcomeMessage: 'Coming soon!'
+
+      });
     }, 3000);
   }
-  
-  render () {
-    return (
-       <>
-    <h1>{this.state.welcomeMessage}</h1>
-    <Link to='/'><h1>Home</h1></Link>
-   </>
 
+  render() {
+    return (
+      <>
+        <h1>{this.state.welcomeMessage}</h1>
+        <Link to='/'><h2>Home</h2></Link>
+      </>
     );
   }
-
 }
 
 
 /*
 
 STATE COMPONENT
-   
+
 export default function Details() {
   return (
     <>
@@ -43,6 +43,9 @@ export default function Details() {
    </>
   );
 }
+
+    
+     
 
 */
 
