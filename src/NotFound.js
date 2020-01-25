@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 
 
@@ -8,4 +8,4 @@ export default function NotFOund () {
         <h2>Ooops...the page doesn't exist :(</h2>
     ) 
         
-}
+}*/

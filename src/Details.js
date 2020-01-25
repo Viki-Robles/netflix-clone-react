@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import getMovieTitle from './gallery-get';
+
+export default function Details() {
+  return (
+    <>
+    <h1>Welcome to Vicky's app!</h1>
+    <Link to='/'><h1>Home</h1></Link>
+   </>
+  );
+}
+
+/*
+
+import { Link, Redirect } from 'react-router-dom';
+
 
 export default class Details extends Component {
 
@@ -41,9 +55,7 @@ export default class Details extends Component {
 }
 
 
-/*
 
-STATE COMPONENT
 
 export default function Details() {
   return (
