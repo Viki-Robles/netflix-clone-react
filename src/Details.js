@@ -15,7 +15,7 @@ export default class Details extends Component {
   componentDidMount() {
 
     let movietitleid = this.props.match.params.movietitleid;
-    let movietitle = getMovieTitle().find(function(movietitle) {
+    let movietitle = getMovieTitle().find((movietitle) => {
         return movietitle.id === movietitleid;
     });
     
