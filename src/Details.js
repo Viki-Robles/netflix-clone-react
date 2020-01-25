@@ -1,29 +1,36 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import getMovieTitle from './gallery-get';
 
 export default class Details extends Component {
 
   constructor() {
     super();
+    
     this.state = {
-      welcomeMessage: 'Welcome to Vickys App!! '
+      movietitle: {}
     };
   }
 
 
   componentDidMount() {
-    setTimeout(() => {
+    let movietitleid = this.props.match.params.movietitleid;
+    let movietitle = getMovieTitle().find(function(movietitle) {
+        return movietitle.id === movietitleid;
+    });
+    
       this.setState({
-       welcomeMessage: 'Coming soon!'
+       movietitle: movietitle
 
       });
-    }, 3000);
+   
   }
 
   render() {
+    
     return (
       <>
-        <h1>{this.state.welcomeMessage}</h1>
+        <h1>{this.state.movietitle.name}</h1>
         <Link to='/'><h2>Home</h2></Link>
       </>
     );

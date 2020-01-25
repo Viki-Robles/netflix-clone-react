@@ -19,7 +19,7 @@ class App extends Component {
 
           <div className="background-image">
             <Route exact path='/' component={Gallery} />
-            <Route exact path='/:details' component={Details} />
+            <Route exact path='/:movietitleid' component={Details} />
           </div>
         </div>
 
