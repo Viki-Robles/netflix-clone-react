@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import getMovieTitle from './gallery-get';
 
 export default class Details extends Component {
@@ -27,7 +27,10 @@ export default class Details extends Component {
   }
 
   render() {
-    
+    if(this.state.movietitle === undefined) {
+        return <Redirect to='/not-found'></Redirect>
+    } else {
+
     return (
       <>
         <h1>{this.state.movietitle.name}</h1>
