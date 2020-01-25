@@ -6,7 +6,6 @@ export default class Details extends Component {
 
   constructor() {
     super();
-    
     this.state = {
       movietitle: {}
     };
@@ -14,6 +13,7 @@ export default class Details extends Component {
 
 
   componentDidMount() {
+
     let movietitleid = this.props.match.params.movietitleid;
     let movietitle = getMovieTitle().find(function(movietitle) {
         return movietitle.id === movietitleid;
@@ -51,7 +51,7 @@ export default function Details() {
   );
 }
 
-    
+
      
 
 */

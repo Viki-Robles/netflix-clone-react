@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Gallery from './Gallery';
 import Details from './Details';
 import molly from './mollygame.jpg';
+import NotFound from './NotFound';
 
 
 
@@ -18,8 +19,12 @@ class App extends Component {
         <h1>KodFlix</h1>
 
           <div className="background-image">
+            <Switch>
             <Route exact path='/' component={Gallery} />
+            <Route exact path='/not-found' component={NotFound}/>
             <Route exact path='/:movietitleid' component={Details} />
+            </Switch>
+       
           </div>
         </div>
 
@@ -36,13 +41,8 @@ class App extends Component {
 export default App;
 
 
-
-
-
-
-
-
-/*        <h1>KodFlix</h1>
+/*        
+<Route path='/not-found' component={NotFound}/>
  */
 
 
