@@ -8,16 +8,19 @@ export default class Details extends React.Component {
 
   constructor() {
     super();
-    debugger;
+    
     this.state = {
       welcomeMessage: 'Welcome to Vickys app!'
     };
   }
 
   componentDidMount() {
-    debugger;
+    let movietitleId =this.props.match.params.movietitleId;
+    let movietitle = getMovieTitle().find (function (movietitle) {
+      return movietitle.id === movietitleId;
+    });
+    
     setTimeout(() => {
-      debugger;
       this.setState({
         welcomeMessage: 'Coming soon'
       });
@@ -26,7 +29,7 @@ export default class Details extends React.Component {
   }
 
   render() {
-    debugger;
+    
     return (
       <>
         <h1>{this.state.welcomeMessage}</h1>
