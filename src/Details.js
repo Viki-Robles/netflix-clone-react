@@ -6,28 +6,35 @@ import getMovieTitle from './gallery-get';
 
 export default class Details extends React.Component {
 
-      constructor() {
-        super();
-        this.state ={
-            welcomeMessage: 'Welcome to Vickys app!'
-        };
-      }
+  constructor() {
+    super();
+    debugger;
+    this.state = {
+      welcomeMessage: 'Welcome to Vickys app!'
+    };
+  }
 
-      componentDidMount() {
-        setTimeout (()=> {
+  componentDidMount() {
+    debugger;
+    setTimeout(() => {
+      debugger;
+      this.setState({
+        welcomeMessage: 'Coming soon'
+      });
 
-        }, 3000);
-      }
+    }, 3000);
+  }
 
-      render() {
-        return (
-          <>
-          <h1>{this.state.welcomeMessage}</h1>
-          <Link to='/'><h2>Home</h2></Link>
-         </>
-        );
-      
-      }
+  render() {
+    debugger;
+    return (
+      <>
+        <h1>{this.state.welcomeMessage}</h1>
+        <Link to='/'><h2>Home</h2></Link>
+      </>
+    );
+
+  }
 }
 
 
