@@ -10,7 +10,7 @@ export default class Details extends React.Component {
     super();
     
     this.state = {
-      welcomeMessage: 'Welcome to Vickys app!'
+      movietitle: {}
     };
   }
 
@@ -20,19 +20,18 @@ export default class Details extends React.Component {
       return movietitle.id === movietitleId;
     });
     
-    setTimeout(() => {
+    
       this.setState({
-        welcomeMessage: 'Coming soon'
+        movietitle: movietitle
       });
-
-    }, 3000);
+   
   }
 
   render() {
     
     return (
       <>
-        <h1>{this.state.welcomeMessage}</h1>
+        <h1>{this.state.movietitle.name}</h1>
         <Link to='/'><h2>Home</h2></Link>
       </>
     );
