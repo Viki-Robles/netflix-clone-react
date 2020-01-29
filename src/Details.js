@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import getMovieTitle from './gallery-get';
 
 
@@ -28,7 +28,11 @@ export default class Details extends React.Component {
   }
 
   render() {
-    
+    if(this.state.movietitle === undefined) {
+      return <Redirect to='/not-found'/>;
+
+    } else {
+      
     return (
       <>
         <h1>{this.state.movietitle.name}</h1>
@@ -39,6 +43,7 @@ export default class Details extends React.Component {
   }
 }
 
+}
 
 
 /*
@@ -53,6 +58,9 @@ export default function Details() {
    </>
   );
 }
+
+
+
 
 */
 

@@ -1,11 +1,18 @@
-/*import React from 'react';
+import React from 'react';
 
 
-
-
-export default function NotFOund () {
-    return (
-        <h2>Ooops...the page doesn't exist :(</h2>
-    ) 
-        
+/*export default class NotFound extends React.Component {
+    return () {
+        <div>Ooops..This page doesn't exist.. :(</div>
+    }
 }*/
+
+export default function NotFound() {
+    return (
+       
+        <div>Ooops..This page doesn't exist.. :(</div>
+      
+    ); 
+
+    
+}

@@ -4,6 +4,7 @@ import './App.css';
 import Gallery from './Gallery';
 import Details from './Details';
 import molly from './mollygame.jpg';
+import NotFound from './NotFound';
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
 
           <div className="background-image">
             <Switch>
+            <Route exact path='/not-found' component={NotFound}/>
             <Route exact path='/' component={Gallery} />
             <Route exact path='/:movietitleId' component={Details} />
             </Switch>
