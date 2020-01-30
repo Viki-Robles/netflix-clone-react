@@ -36,6 +36,7 @@ export default class Details extends React.Component {
     return (
       <>
         <h1>{this.state.movietitle.name}</h1>
+        <h2>{this.state.movietitle.synopsis}</h2>
         <Link to='/'><h2>Home</h2></Link>
       </>
     );
