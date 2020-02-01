@@ -10,6 +10,7 @@
    display:grid;
    grid-template-columns: 1fr 1fr;
    background-color:black;
+   padding-bottom:20%;
    color:white;
 }
 
@@ -22,7 +23,7 @@
 .Details .content .image {
     padding:15px;
     height: 80vh;
-    border-radius:2px;
+    border-radius:4px;
 }
 
 .Details .text {
@@ -35,6 +36,8 @@
 .Details .content .text {
     padding:15px;
 }
+
+
 
 @media only screen and(max-width:600px) {
     .Details .content  {
