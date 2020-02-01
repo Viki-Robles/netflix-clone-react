@@ -1,0 +1,13 @@
+.Details .content {
+   display:flex;
+   background-color:black;
+   color:white;
+}
+
+.content {
+    font-size: 25px;
+}
+
+.content-logo {
+    height:90vh;
+}

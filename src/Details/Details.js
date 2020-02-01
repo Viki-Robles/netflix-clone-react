@@ -9,45 +9,49 @@ export default class Details extends React.Component {
 
   constructor() {
     super();
-    
+
     this.state = {
       movietitle: {}
     };
   }
 
   componentDidMount() {
-    let movietitleId =this.props.match.params.movietitleId;
-    let movietitle = getMovieTitle().find (function (movietitle) {
+    let movietitleId = this.props.match.params.movietitleId;
+    let movietitle = getMovieTitle().find(function (movietitle) {
       return movietitle.id === movietitleId;
     });
-    
-    
-      this.setState({
-        movietitle: movietitle
-      });
-   
+
+
+    this.setState({
+      movietitle: movietitle
+    });
+
   }
 
   render() {
-    if(this.state.movietitle === undefined) {
-      return <Redirect to='/not-found'/>;
+    if (this.state.movietitle === undefined) {
+      return <Redirect to='/not-found' />;
 
     } else {
-      
-    return (
-      <>
-        <h1>{this.state.movietitle.name}</h1>
-        <div>{this.state.movietitle.details}</div>
-        <img src={this.state.movietitle.logo}
-            alt={this.state.movietitle.name}/>
 
+      return (
+        <>
+          <div className="Details">
+            <h1>{this.state.movietitle.name}</h1>
+            <div className="content">
+              <div>{this.state.movietitle.details}</div>
+              <div className="content-logo">
+                <img src={this.state.movietitle.logo}
+                  alt={this.state.movietitle.name} />
+              </div>
+            </div>
+            <Link to='/'><h2>Home</h2></Link>
+          </div>
+        </>
+      );
 
-        <Link to='/'><h2>Home</h2></Link>
-      </>
-    );
-
+    }
   }
-}
 
 }
 
