@@ -5,7 +5,7 @@ import bleach from './images/bleach.jpg';
 import casadepapel from './images/casadepapel.jpg';
 import Fairytail from './images/Fairytail.jpg';
 import Suits from './images/Suits.jpg';
-import TheWitcher from './images/theWitcher';
+import TheWitcher from './images/TheWitcher';
 
 
 
