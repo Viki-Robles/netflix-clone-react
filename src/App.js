@@ -5,12 +5,7 @@ import Gallery from './Gallery';
 import Details from './Details';
 import molly from './mollygame.jpg';
 import NotFound from './NotFound';
-import BlackMirror from './images/BlackMirror.jpg';
-import bleach from './images/bleach.jpg';
-import casadepapel from './images/casadepapel.jpg';
-import Fairytail from './images/Fairytail.jpg';
-import Suits from './images/Suits.jpg';
-import TheWitcher from './images/TheWitcher.jpg';
+
 
 
 
