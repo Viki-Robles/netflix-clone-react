@@ -22,7 +22,7 @@
 .Details .content .image {
     padding:15px;
     height: 80vh;
-    border-radius:1px;
+    border-radius:2px;
 }
 
 .Details .text {
@@ -31,3 +31,13 @@
     margin-bottom: 10px;
 }
 
+.Details .content .image,
+.Details .content .text {
+    padding:15px;
+}
+
+@media only screen and(max-width:600px) {
+    .Details .content  {
+        flex-direction: column;
+    }
+}
