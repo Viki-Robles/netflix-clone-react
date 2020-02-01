@@ -66,10 +66,11 @@ margin-bottom:30px;
   border-radius: 4px;
   padding:0;
   border:1px solid black;
-  position: relative;
   flex:1;
+  position:relative;
   transition: margin 1s;
-
+/*posiiton: relative*/
+/**/
  
 }
 
@@ -85,6 +86,7 @@ margin-bottom:30px;
   background-position: center;
   border:solid white;
   width:100%;
+  
 }*/
 
 .box:hover {

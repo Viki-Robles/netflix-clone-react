@@ -5,20 +5,19 @@ import { Link } from 'react-router-dom';
 
 export default function MovieTitle(props) {
   return (
-    <>
-      <div className="container">
-            <Link to={`/${props.id}`}>
-              <img src={props.logo} alt={`${props.name} logo`} className={`${props.box} box`}/>
+            <Link to={'/'+ props.id} className="container">
+              <img src={props.logo} alt={`${props.name} logo`} className="box"/>
               <div className="overlay">
                 <h2>{props.name}</h2>
-              </div>
+                </div>
+             
             </Link>
-          </div>
-      
+          
      
-    </>
+    
   );
 }
 
 
-
+/*            <Link to={`/${props.id}`}>
+ */
