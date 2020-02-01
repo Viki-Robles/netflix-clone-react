@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import getMovieTitle from './gallery-get';
+import getMovieTitle from '../gallery-get';
+import './Details.css';
 
 
 
