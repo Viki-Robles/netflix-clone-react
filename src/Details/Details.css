@@ -12,6 +12,7 @@
    background-color:black;
    padding-bottom:20%;
    color:white;
+   
 }
 
 .content {
@@ -22,15 +23,14 @@
 
 .Details .content .image {
     padding:15px;
-    height: 80vh;
+    height: 90vh;
     border-radius:4px;
 }
 
 .Details .text {
     text-align: center;
     border:2px solid red;
-    margin-bottom:21px;
-    padding-left:20px;
+    
 
 }
 
@@ -51,6 +51,8 @@
     
     
 }
+
+
 
 @media only screen and(max-width:600px) {
     .Details .content  {
