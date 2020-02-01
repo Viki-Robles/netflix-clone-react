@@ -6,8 +6,6 @@
     
 }
 
-
-
 .Details .content {
    display:grid;
    grid-template-columns: 1fr 1fr;
@@ -24,6 +22,7 @@
 .Details .content .image {
     padding:15px;
     height: 80vh;
+    border-radius:1px;
 }
 
 .Details .text {
