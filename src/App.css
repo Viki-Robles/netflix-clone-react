@@ -62,7 +62,7 @@ margin-bottom:30px;
 }
 
 
-.logo {
+.box {
   /*flex-basis: 50px;
   flex:1;*/
   margin:10px;
@@ -76,7 +76,7 @@ margin-bottom:30px;
  
 }
 
-.logo:hover {
+.box:hover {
   margin:0;
 }
 
@@ -108,7 +108,7 @@ margin-bottom:30px;
   align-items: center;
 }
 
-.logo:hover .overlay {
+.box:hover .overlay {
   height:15%;
   bottom:0;
   
