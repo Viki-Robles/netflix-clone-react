@@ -62,7 +62,7 @@ margin-bottom:30px;
 }
 
 
-.box {
+.logo {
   /*flex-basis: 50px;
   flex:1;*/
   margin:10px;
@@ -76,7 +76,7 @@ margin-bottom:30px;
  
 }
 
-.box:hover {
+.logo:hover {
   margin:0;
 }
 
@@ -108,19 +108,19 @@ margin-bottom:30px;
   align-items: center;
 }
 
-.box:hover .overlay {
+.logo:hover .overlay {
   height:15%;
   bottom:0;
   
 }
 
-.box-details {
+/*.box-details {
   height:90vh;
   background-size: cover;
   background-position: center;
   border:solid white;
   width:100%;
-}
+}*/
 
 
 .cover-image {
