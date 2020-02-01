@@ -39,10 +39,14 @@ export default class Details extends React.Component {
           <div className="Details">
             <h1>{this.state.movietitle.name}</h1>
             <div className="content">
+              <div className="text">
               <div>{this.state.movietitle.details}</div>
+              </div>
+
               <div className="content-logo">
-                <img src={this.state.movietitle.logo}
-                  alt={this.state.movietitle.name} />
+                <img className="image"
+                     src={this.state.movietitle.logo}
+                     alt={this.state.movietitle.name}/>
               </div>
             </div>
             <Link to='/'><h2>Home</h2></Link>
@@ -59,7 +63,7 @@ export default class Details extends React.Component {
 /*
 
 
-
+alt={this.state.movietitle.name}
 export default function Details() {
   return (
     <>

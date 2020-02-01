@@ -1,13 +1,27 @@
+* {
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
+
+
+
 .Details .content {
    display:flex;
+   
+  
    background-color:black;
    color:white;
 }
 
 .content {
-    font-size: 25px;
+    font-size: 30px;
+    padding-top:50px;
+    flex-grow: 2;
 }
 
-.content-logo {
-    height:90vh;
+.Details .content .img {
+    padding:15px;
 }
