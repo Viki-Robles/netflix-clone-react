@@ -18,7 +18,7 @@ export default function getMovieTitle() {
         { id: "suits", name: "Suits", logo: Suits },
         { id: "theWitcher", name: "TheWitcher", logo: TheWitcher},
         { id: "lacasadepapel", name: "casadepapel", logo: casadepapel},
-        { id: "fairytail", name: "FairyTail", logo: Fairytail },
+        { id: "fairytail", name: "FairyTail", logo: FairyTail }
 
 
 
