@@ -6,11 +6,10 @@ export default function MovieTitle(props) {
   return (
     <>
     <Link to={`/${props.id}`} className="box">
-        <div className={`box-details ${props.picture}`}>
+        <img src={props.logo} alt={`${props.name} logo`}/>
           <div className="overlay">
             <h2>{props.name}</h2>
             </div>
-        </div>
         </Link>
     </>
   );

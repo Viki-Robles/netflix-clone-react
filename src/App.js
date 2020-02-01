@@ -5,6 +5,13 @@ import Gallery from './Gallery';
 import Details from './Details';
 import molly from './mollygame.jpg';
 import NotFound from './NotFound';
+import BlackMirror from './images/BlackMirror.jpg';
+import bleach from './images/bleach.jpg';
+import casadepapel from './images/casadepapel.jpg';
+import Fairytail from './images/Fairytail.jpg';
+import Suits from './images/Suits.jpg';
+import TheWitcher from './images/TheWitcher.jpg';
+
 
 
 
@@ -16,9 +23,10 @@ class App extends Component {
       <Router>
 
         <div className="App">
-        <h1>KodFlix</h1>
-
-          <div className="background-image">
+        <h1>KodFlix</h1> 
+        <div>
+   
+        <div>
             <Switch>
             <Route exact path='/not-found' component={NotFound}/>
             <Route exact path='/' component={Gallery} />
@@ -27,6 +35,8 @@ class App extends Component {
        
           </div>
         </div>
+        </div>
+
 
 
 
@@ -42,6 +52,9 @@ export default App;
 
 
 /*        
+<img src={logo} className="App-logo" alt="logo"/>
+          <div className="background-image">
+        <img src={molly} className="App-logo" alt="logo"/>
 
 <Route exact path='/not-found' component={NotFound}/>
 

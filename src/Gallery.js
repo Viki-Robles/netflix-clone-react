@@ -3,9 +3,9 @@ import MovieTitle from './MovieTitle';
 import getMovieTitle from './gallery-get';
 
 
-export default function Gallery() {
+export default function Gallery(props) {
   return (
-    <div>
+    <div className={props.match.params !== '/:details' ? "background-image": "empty"}>
       <div className="container cover-image">
         {
 
