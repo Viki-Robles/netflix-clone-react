@@ -50,8 +50,8 @@ export default class Details extends React.Component {
                      src={this.state.movietitle.logo}
                      alt={this.state.movietitle.name}/>
               </div>
+              <Link to='/'><h2>Home</h2></Link>
             </div>
-            <Link to='/'><h2>Home</h2></Link>
           </div>
         </>
       );

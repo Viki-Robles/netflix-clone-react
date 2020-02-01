@@ -37,7 +37,15 @@
     padding:15px;
 }
 
+.Details h2 {
+    margin-top:10%;
+}
 
+.Details h1 {
+    color:white;
+    text-align:left;
+    
+}
 
 @media only screen and(max-width:600px) {
     .Details .content  {
