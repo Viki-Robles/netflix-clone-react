@@ -12,8 +12,8 @@ export default class Menu extends React.Component {
 
     render() {
         return (
-            <div>className="Menu">
-                <MenuButton />
+            <div className="Menu">
+                <MenuButton isExpanded={this.state.isExpanded} />
                 <div className="Menu-links">
                     <div className="Menu-link"><b>Home</b></div>
                     <div className="Menu-link"><b>Series</b></div>
@@ -25,8 +25,11 @@ export default class Menu extends React.Component {
     }
 }
 
-function MenuButton() {
+function MenuButton({ isExpanded }) {
     return (
-        <button className="Menubutton"><b>MenuButton</b></button>
+        <button className="Menubutton">
+
+            MenuButton {isExpanded ? "Yes": "No"}
+        </button>
     );
 }

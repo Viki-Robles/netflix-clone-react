@@ -1,12 +1,19 @@
 
 /*Mobile version*/
+
+.Menu {
+    display:flex;
+    
+}
+
 .Menu-links {
     display:none;
 }
 
 .MenuButton {
     display:flex;
-    justify-content: right;
+    flex-direction:right;
+    padding:20px;
 }
 
 
