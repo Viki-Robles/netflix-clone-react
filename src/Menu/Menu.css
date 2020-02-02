@@ -11,10 +11,8 @@
 }
 
 .MenuButton {
-    display:flex;
-    flex-direction:right;
-    padding:20px;
-    background-color: red;
+    display:none;
+    
 
 }
 
@@ -35,7 +33,7 @@
        
     }
     .MenuButton {
-        display:none;
+        display:flex;
         justify-content: right;
         background-color: red;
 
