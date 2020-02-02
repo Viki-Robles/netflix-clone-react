@@ -55,10 +55,12 @@
     font-size: 40px;
     text-align:center;
     margin-top:60px;
-    padding:5px;
-    border-radius: 4px;
+    padding:10px;
+    border-radius:8px;
+    border:2px red;
     color:black;
     margin-left:100%;
+    background-color:red;
     
 }
 
