@@ -5,17 +5,19 @@ import Gallery from './Gallery';
 import Details from './Details/Details.js';
 import molly from './mollygame.jpg';
 import NotFound from './NotFound';
-
+import Menu from './Menu/Menu';
 
 
 class App extends Component {
   render() {
     return (
-
+      
       <Router>
 
         <div className="App">
+        
         <h1>KodFlix</h1> 
+        <Menu/>
         <div>
    
         <div>
