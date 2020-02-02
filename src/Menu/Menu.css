@@ -5,7 +5,7 @@
 }
 
 .MenuButton {
-    display:block;
+    display:flex;
     justify-content: right;
 }
 
@@ -27,6 +27,8 @@
     }
     .MenuButton {
         display:none;
+        justify-content: right;
+
     }
 
 
