@@ -6,7 +6,7 @@ import Details from './Details/Details.js';
 import molly from './mollygame.jpg';
 import NotFound from './NotFound';
 import Menu from './Menu/Menu';
-
+import './Menu/Menu.css';
 
 class App extends Component {
   render() {
@@ -15,11 +15,9 @@ class App extends Component {
       <Router>
 
         <div className="App">
-        
-        <h1>KodFlix</h1> 
         <Menu/>
+        <h1>KodFlix</h1> 
         <div>
-   
         <div>
             <Switch>
             <Route exact path='/not-found' component={NotFound}/>

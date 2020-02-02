@@ -3,7 +3,7 @@ import React from 'react';
 export default class Menu extends React.Component {
     constructor() {
         super();
-        this.state={ isExpanded: false};
+        this.state={ isExpanded: false };
     }
 
 

@@ -1,0 +1,10 @@
+.Menu {
+    color:red;
+    font-size:25px;
+}
+
+@media(min-width:600px) {
+    .Menu {
+        display:none;
+    }
+}
