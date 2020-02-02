@@ -11,27 +11,22 @@ import './Menu/Menu.css';
 class App extends Component {
   render() {
     return (
-      
+
       <Router>
 
         <div className="App">
-        <Menu/>
-        <h1>KodFlix</h1> 
-        <div>
-        <div>
-            <Switch>
-            <Route exact path='/not-found' component={NotFound}/>
-            <Route exact path='/' component={Gallery} />
-            <Route exact path='/:movietitleId' component={Details} />
-            </Switch>
-       
+          <Menu />
+          <h1>KodFlix</h1>
+          <div>
+            <div>
+              <Switch>
+                <Route exact path='/not-found' component={NotFound} />
+                <Route exact path='/' component={Gallery} />
+                <Route exact path='/:movietitleId' component={Details} />
+              </Switch>
+            </div>
           </div>
         </div>
-        </div>
-
-
-
-
       </Router>
 
 
@@ -43,7 +38,7 @@ class App extends Component {
 export default App;
 
 
-/*        
+/*
 <img src={logo} className="App-logo" alt="logo"/>
           <div className="background-image">
         <img src={molly} className="App-logo" alt="logo"/>

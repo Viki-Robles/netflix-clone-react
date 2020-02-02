@@ -1,10 +1,28 @@
-.Menu {
-    color:red;
-    font-size:25px;
+
+/*Mobile version*/
+.Menu-links {
+    display:none;
 }
 
+
+
+
+/*Desktop Version*/
 @media(min-width:600px) {
-    .Menu {
-        display:none;
+    .Menu-links {
+        display:flex;
+        color:red;
+        font-size:25px;
+        padding:10px;
+        flex:2px;
+        padding-top:30px;
     }
-}
+
+    .Menu-link {
+        padding:15px;
+       
+    }
+    .MenuButton {
+        display:block;
+    }
+} 
