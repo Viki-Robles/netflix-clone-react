@@ -6,6 +6,7 @@
 
 .MenuButton {
     display:block;
+    justify-content: right;
 }
 
 
@@ -27,4 +28,6 @@
     .MenuButton {
         display:none;
     }
+
+
 } 
