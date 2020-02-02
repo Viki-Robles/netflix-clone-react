@@ -29,7 +29,8 @@
 
 .Details .text {
     text-align: center;
-    border:4px solid rgba(255, 0, 0, 0.427);
+    display: inline-block;
+    
     
 
 }
