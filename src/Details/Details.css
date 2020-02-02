@@ -12,6 +12,7 @@
    background-color:black;
    padding-bottom:20%;
    color:white;
+   font-family: fantasy;
    
 }
 
@@ -29,7 +30,7 @@
 
 .Details .text {
     text-align: center;
-    border:2px solid red;
+    border:4px solid rgba(255, 0, 0, 0.427);
     
 
 }
@@ -39,10 +40,11 @@
     padding:15px;
 }
 
-.Details h2 {
+.Details h1 {
    padding-top:10%;
-   padding-bottom: 10%;
    text-align: left;
+   color: white;
+   padding-left:20px;
 }
 
 

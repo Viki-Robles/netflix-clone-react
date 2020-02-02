@@ -37,7 +37,7 @@ export default class Details extends React.Component {
       return (
         <>
           <div className="Details">
-          
+
             <h1>{this.state.movietitle.name}</h1>
             
             <div className="content">
