@@ -15,7 +15,7 @@ toggleState() {
     render() {
         return (
             <div className="Menu">
-                <MenuButton className="MenuButton"isExpanded={this.state.isExpanded}
+                <MenuButton isExpanded={this.state.isExpanded}
                 onButtonClicked={() => this.toggleState()} />
                 <div className="Menu-links">
                     <div className="Menu-link"><b>Home</b></div>
@@ -32,7 +32,7 @@ function MenuButton({ isExpanded, onButtonClicked }) {
     return (
         <button 
             onClick={() => onButtonClicked()}
-            className="Menubutton">
+            className="MenuButton">
             MenuButton {isExpanded ? "Yes": "No"}
         </button>
     );

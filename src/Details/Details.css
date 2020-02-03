@@ -6,11 +6,15 @@
     
 }
 
+.Details .content .image,
+.Details .content .text {
+    padding:15px;
+}
 .Details .content {
    display:grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr;
    background-color:black;
-   padding-bottom:20%;
+   padding: 0;
    color:white;
    
 }
@@ -22,7 +26,6 @@
 }
 
 .Details .content .image {
-    padding:15px;
     height: 90vh;
     border-radius:4px;
 }
@@ -35,10 +38,7 @@
 
 }
 
-.Details .content .image,
-.Details .content .text {
-    padding:15px;
-}
+
 
 .Details h1 {
    padding-top:10%;
@@ -67,6 +67,7 @@
 @media only screen and(max-width:600px) {
     .Details .content  {
         flex-direction: column;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

@@ -1,4 +1,6 @@
 
+
+
 /*Mobile version*/
 
 .Menu {
@@ -11,14 +13,12 @@
 }
 
 .MenuButton {
-    display:none;
-    
-
+    display:flex; 
 }
 
 
 /*Desktop Version*/
-@media(min-width:600px) {
+@media(min-width: 600px) {
     .Menu-links {
         display:flex;
         color:red;
@@ -27,13 +27,11 @@
         flex:2px;
         padding-top:30px;
     }
-
     .Menu-link {
-        padding:15px;
-       
+        padding:15px; 
     }
     .MenuButton {
-        display:flex;
+        display: none;
         justify-content: right;
         background-color: red;
 
