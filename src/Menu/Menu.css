@@ -5,10 +5,12 @@
 
 .Menu {
     display:flex;
+    justify-content: flex-end;
     
 }
 
 .Menu-links {
+    transition: right ease 0.3s;
     color:red;
     background-color:grey;
     position:absolute;
@@ -21,7 +23,7 @@
 }
 
 .Menu-links.is-expanded {
-    right:-200;
+    right: 0;
     
 }
 
@@ -34,7 +36,7 @@
     display:block;
     padding:20px;
     margin-top:10px;
-    margin-left:10px;
+    margin-right:10px;
     z-index: 1;
 }
 
@@ -48,6 +50,8 @@
         padding:10px;
         flex:2px;
         padding-top:30px;
+        justify-content: flex-end;
+        background-color:transparent;
     }
     .Menu-link {
         padding:15px; 
