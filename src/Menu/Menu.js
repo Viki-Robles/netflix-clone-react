@@ -13,7 +13,7 @@ toggleState() {
 
 
     render() {
-        let isExpanded = this.state;
+        let {isExpanded} = this.state;
         return (
             <div className="Menu">
                 <MenuButton 

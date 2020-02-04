@@ -9,14 +9,33 @@
 }
 
 .Menu-links {
-    display:none;
+    color:red;
+    background-color:grey;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:-200;
+    width: 200px;
+    padding-top:100px;
+    
 }
 
+.Menu-links.is-expanded {
+    right:-200;
+    
+}
+
+.Menu-link {
+   padding:20px;
+}
+
+
 .MenuButton {
-    display:flex;
+    display:block;
     padding:20px;
     margin-top:10px;
     margin-left:10px;
+    z-index: 1;
 }
 
 
@@ -33,10 +52,12 @@
     .Menu-link {
         padding:15px; 
     }
+
     .MenuButton {
         display: none;
         justify-content: right;
         background-color: red;
+        
 
     }
 
