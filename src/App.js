@@ -45,6 +45,7 @@ export default App;
 
 <Route exact path='/not-found' component={NotFound}/>
 
+<Route exact path='/:showId/play' component={Play}/>
  */
 
 

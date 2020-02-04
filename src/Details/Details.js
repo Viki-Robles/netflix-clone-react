@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getMovieTitle from '../gallery-get';
 import './Details.css';
+/*import Play from '../Play/Play';*/
+
 
 
 
@@ -50,6 +52,8 @@ export default class Details extends React.Component {
                      src={this.state.movietitle.logo}
                      alt={this.state.movietitle.name}/>
               </div>
+
+
               <Link to='/'><button className="button">Home</button></Link>
             </div>
           </div>
@@ -63,6 +67,11 @@ export default class Details extends React.Component {
 
 
 /*
+
+
+<Play/>
+
+
 
 
 alt={this.state.movietitle.name}

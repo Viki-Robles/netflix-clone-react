@@ -31,25 +31,21 @@
 
 .Details .text {
     text-align: center;
-    display: inline-block;
+    display: block;
     width:100vw;
     padding-top:50px;
-    
-    
-    
 
 }
-
 
 
 .Details h1 {
-   padding-top:10%;
-   text-align: center;
-   color: white;
-   padding-left:20px;
-   letter-spacing:1px;
-   animation: title 3s 1;
-}
+    padding-top:10%;
+    text-align: left;
+    color: white;
+    padding-left:20px;
+    letter-spacing:1px;
+    animation: title 3s 1;
+ }
 
 
 
@@ -74,10 +70,8 @@
         grid-template-columns: 1fr 1fr;
         display:grid;
     }
-
-    .Details h1 {
-        text-align: left;
-    }
+   
+    
 }
 
 @keyframes title {
