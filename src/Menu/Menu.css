@@ -15,10 +15,9 @@
     position:absolute;
     top:0;
     bottom:0;
-    right:-200;
     width: 200px;
     padding-top:100px;
-    display:none;
+    right: -200px;
     
 }
 
@@ -48,17 +47,16 @@
     .Menu-links {
         display:flex;
         color:red;
-        font-size:25px;
-        padding:10px;
-        flex:2px;
-        padding-top:0;
         justify-content: flex-end;
         background-color:transparent;
+        padding-top:0;
         width:auto;
+        background-color:transparent;
+        
     }
     .Menu-link {
-        padding:15px;
         font-size:20px;
+        
     }
 
     .MenuButton {
