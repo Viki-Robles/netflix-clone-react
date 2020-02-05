@@ -37,9 +37,15 @@
     margin-top:15px;
     margin-right:15px;
     z-index: 1;
-    color:grey;
+    color:red;
     font-size: 15 px;
+    background-color:transparent;
+    border:solid red 3px;
+    border-radius:4px;
+    font-size:18px;
 }
+
+
 
 
 /*Desktop Version*/
@@ -48,10 +54,10 @@
         display:flex;
         color:red;
         justify-content: flex-end;
-        background-color:transparent;
         padding-top:0;
         width:auto;
         background-color:transparent;
+        padding-top:0;
         
     }
     .Menu-link {
@@ -67,6 +73,7 @@
         
 
     }
+
 
 
 } 

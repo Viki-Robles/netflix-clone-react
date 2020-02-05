@@ -35,8 +35,9 @@ function MenuButton({ isExpanded, onButtonClicked }) {
         <button 
             onClick={() => onButtonClicked()}
             className="MenuButton">
-            MenuButton {isExpanded ? "Yes": "No"}
+            Menu {isExpanded}
         </button>
     );
 }
 
+/**? "Yes": "No" */
