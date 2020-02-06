@@ -10,7 +10,7 @@
 }
 
 .Menu-links {
-    transition: right ease 0.3s;
+    transition: right ease 0.7s;
     color:red;
     position:absolute;
     top:0;

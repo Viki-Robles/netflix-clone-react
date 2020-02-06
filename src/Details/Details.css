@@ -40,9 +40,8 @@
 
 .Details h1 {
     padding-top:10%;
-    text-align: left;
+    text-align: center;
     color: white;
-    padding-left:20px;
     letter-spacing:1px;
     animation: title 3s 1;
  }

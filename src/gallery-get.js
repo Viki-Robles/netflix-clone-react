@@ -6,6 +6,7 @@ import casadepapel from './images/casadepapel.jpg';
 import FairyTail from './images/FairyTail.jpg';
 import Suits from './images/Suits.jpg';
 import TheWitcher from './images/TheWitcher.jpg';
+import { url } from 'inspector';
 
 
 
