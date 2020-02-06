@@ -18,6 +18,3 @@ export default function MovieTitle(props) {
   );
 }
 
-
-/*            <Link to={`/${props.id}`}>
- */

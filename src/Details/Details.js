@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getMovieTitle from '../gallery-get';
 import './Details.css';
-/*import Play from '../Play/Play';*/
+import Play from '../Play/Play';
 
 
 
@@ -35,29 +35,22 @@ export default class Details extends React.Component {
       return <Redirect to='/not-found' />;
 
     } else {
-
       return (
-        <>
-          <div className="Details">
-
-            <h1>{this.state.movietitle.name}</h1>
-            
-            <div className="content">
-              <div className="text">
+        <div className="Details">
+          <h1>{this.state.movietitle.name}</h1>
+          <div className="content">
+            <div className="text">
               <div>{this.state.movietitle.details}</div>
-              </div>
-
-              <div className="content-logo">
-                <img className="image"
-                     src={this.state.movietitle.logo}
-                     alt={this.state.movietitle.name}/>
-              </div>
-
-
-              <Link to='/'><button className="button">Home</button></Link>
             </div>
+            <div className="content-logo">
+              <img className="image"
+                src={this.state.movietitle.logo}
+                alt={this.state.movietitle.name} />
+              <Play  videoId = "2bVik34nWws"/>
+            </div>
+            <Link to='/'><button className="button">Home</button></Link>
           </div>
-        </>
+        </div>
       );
 
     }
