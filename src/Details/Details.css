@@ -65,10 +65,21 @@
 
 
 @media only screen and(min-width:600px) {
-    .Details .content  {
-        flex-direction: column;
-        grid-template-columns: 1fr 1fr;
-        display:grid;
+
+    .Details {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .Details .content  {    
+        display:flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .Details.text,
+    .Details .content .image {
+        flex-direction: row;
     }
    
     .button {
@@ -80,6 +91,12 @@
     margin-left:100%;
     background-color:red;
     }
+
+    .play {
+        flex:1;
+    }
+
+
     
 }
 

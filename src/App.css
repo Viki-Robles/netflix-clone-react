@@ -1,8 +1,7 @@
 .App {
   text-align: center;
   background-color:black;
-  position:absolute;
-  overflow:hidden;
+  /*overflow:hidden;*/
 }
 
 
@@ -22,6 +21,7 @@ h1 {
   padding-top:60px;
   vertical-align: middle;
   cursor: pointer;
+  display: flex;
 
   
 }

@@ -20,7 +20,7 @@ export default function getMovieTitle() {
         { id: "suits", name: "Suits", logo: Suits, details: "On the run from a drug deal gone bad, brilliant college dropout Mike Ross, finds himself working with Harvey Specter, one of New York City's best lawyers.", videoId:"85z53bAebsI"},
         { id: "theWitcher", name: "The Witcher", logo: TheWitcher, details: "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.", videoId:"ndl1W4ltcmg"},
         { id: "lacasadepapel", name: "La Casa De Papel", logo: casadepapel, details: "A group of unique robbers assault the Factory of Moneda and Timbre to carry out the most perfect robbery in the history of Spain and take home 2.4 billion euros.", videoId:"hMANIarjT50"},
-        { id: "fairytail", name: "FairyTail", logo: FairyTail, details: "Lucy, a 17 year old girl, sets out on journey to become a full-fledged wizard and joins the strongest and most (in) famous guild FAIRY TAIL where she meets Natsu, Happy, Gray and Erza, who treat her more like family than friends. This epic series takes us through all the dangers that the members of fairy tail face and eventually overcome through mutual love and friendship.", videoId:"L8HxKTty1WU"}
+        { id: "fairytail", name: "FairyTail", logo: FairyTail, details: "Lucy, a 17 year old girl, sets out on journey to become a full-fledged wizard and joins the strongest and most (in) famous guild FAIRY TAIL where she meets Natsu, Happy, Gray and Erza, who treat her more like family than friends. This epic series takes us through all the dangers that the members of fairy tail face and eventually overcome through mutual love and friendship.", videoId:"ppzcjw2Xq1Y"}
 
 
 
