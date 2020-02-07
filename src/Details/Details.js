@@ -46,10 +46,10 @@ export default class Details extends React.Component {
               <img className="image"
                 src={this.state.movietitle.logo}
                 alt={this.state.movietitle.name} />
-                <div className="play">
-              <Play/>
-              </div>
             </div>
+            <div className="play">
+                <Play/>
+              </div>
             <Link to='/'><button className="button">Home</button></Link>
           </div>
         </div>

@@ -76,12 +76,16 @@
         
         
     }
-
-    .Details.text,
-    .Details .content .image {
-        flex-direction: row;
-    }
    
+    .Details.text {
+        flex:1;
+    }
+
+    .Details .content .image {
+
+    }
+
+    
     .button {
     font-size: 40px;
     text-align:center;

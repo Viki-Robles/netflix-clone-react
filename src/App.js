@@ -7,6 +7,7 @@ import molly from './mollygame.jpg';
 import NotFound from './NotFound';
 import Menu from './Menu/Menu';
 import './Menu/Menu.css';
+import Play from './Play/Play';
 
 class App extends Component {
   render() {
