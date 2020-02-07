@@ -46,7 +46,7 @@ export default class Details extends React.Component {
               <img className="image"
                 src={this.state.movietitle.logo}
                 alt={this.state.movietitle.name} />
-              <Play  videoId = "2bVik34nWws"/>
+              <Play/>
             </div>
             <Link to='/'><button className="button">Home</button></Link>
           </div>
