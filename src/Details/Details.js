@@ -61,28 +61,7 @@ export default class Details extends React.Component {
 }
 
 
-/*
 
-
-<Play/>
-
-
-
-
-alt={this.state.movietitle.name}
-export default function Details() {
-  return (
-    <>
-    <h1>Welcome to Vicky's app!</h1>
-    <Link to='/'><h2>Home</h2></Link>
-   </>
-  );
-}
-
-
-
-
-*/
 
 
 

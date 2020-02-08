@@ -6,16 +6,18 @@
 .Menu {
     display:none;
     justify-content: flex-end;
+    
       
 }
 
 .Menu-links {
-    transition: right ease 0.7s;
+    transition: transform ease 0.7s;
     color:red;
     position:absolute;
     top:0;
     bottom:0;
     width: 200px;
+    will-change: transform;
     padding-top:100px;
     /*right: -200px;*/
     transform: translateX(-100%);
