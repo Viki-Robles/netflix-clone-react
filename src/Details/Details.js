@@ -36,7 +36,7 @@ export default class Details extends React.Component {
 
     } else {
       return (
-        <div className="Details">
+        <div className="Details"> 
           <h1>{this.state.movietitle.name}</h1>
           <div className="content">
             <div className="text">

@@ -1,10 +1,7 @@
-
-
-
 /*Mobile version*/
 
 .Menu {
-    display:none;
+    display:flex;
     justify-content: flex-end;
     
       
@@ -13,7 +10,7 @@
 .Menu-links {
     transition: transform ease 0.7s;
     color:red;
-    position:absolute;
+    position: absolute;
     top:0;
     bottom:0;
     width: 200px;
@@ -49,10 +46,19 @@
     font-size:18px;
 }
 
-
-
-
 /*Desktop Version*/
+
+
+@media(min-width:900px) {
+   
+    .Menu-links {
+        padding-top:50px;
+    }
+
+
+}
+
+
 @media(min-width: 600px) {
 
     
@@ -84,3 +90,4 @@
 
 
 } 
+

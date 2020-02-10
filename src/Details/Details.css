@@ -13,6 +13,7 @@
    background-color:black;
    padding: 0;
    color:white;
+   justify-content: center;
    
    
 }
@@ -27,6 +28,7 @@
     height: 90vh;
     border-radius:4px;
     padding-top:50px;
+    
 }
 
 .Details .text {
@@ -56,24 +58,29 @@
     color:black;
     margin-left:100%;
     background-color:red;
-    
-   /* margin-top:60px;*/
-    
 }
 
-/*Desktop Version*/
+.play {
+    padding-top:40px;
+    
+}
+    
+  
 
 
-@media only screen and(min-width:600px) {
+
+/*------------------------------Desktop Version----------------------------*/
+
+
+@media (min-width:600px) {
 
     .Details {
         display:flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
     .Details .content  {    
         display:flex;
-        flex-wrap: wrap;
-        
+        flex-wrap:wrap;
         
     }
    
@@ -81,11 +88,6 @@
         flex:1;
     }
 
-    .Details .content .image {
-
-    }
-
-    
     .button {
     font-size: 40px;
     text-align:center;
@@ -96,12 +98,23 @@
     background-color:red;
     }
 
-    .play {
-        flex:1;
-    }
-
-
     
+    
+}
+
+@media(min-width:900px) {
+
+.Details h1 {
+    text-align: center;
+}
+
+.Details {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+
 }
 
 @keyframes title {
