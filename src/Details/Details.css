@@ -78,6 +78,16 @@
         display:flex;
         flex-wrap: wrap;
     }
+
+    .section1 {
+        display:flex;
+        flex-grow:1;
+    }
+
+    .section2 {
+        display:flex;
+        flex-grow:2;
+    }
     .Details .content  {    
         display:flex;
         flex-wrap:wrap;

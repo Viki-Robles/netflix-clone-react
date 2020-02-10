@@ -10,7 +10,7 @@ import React from 'react';
 export default function NotFound() {
     return (
        
-        <div>Ooops..This page doesn't exist.. :(</div>
+        <div className="notFound">Ooops..This page doesn't exist.. :(</div>
       
     ); 
 

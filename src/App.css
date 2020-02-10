@@ -118,6 +118,10 @@ margin-bottom:30px;
 
 }
 
+.notFound {
+  display:block;
+  position: absolute;
+}
 
 @media(max-width:600px) {
   .container {

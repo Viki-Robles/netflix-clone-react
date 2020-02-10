@@ -17,13 +17,14 @@
     will-change: transform;
     padding-top:100px;
     /*right: -200px;*/
-    transform: translateX(-100%);
+    transform: translateX(0);
+    overflow: hidden;
     
 }
 
 .Menu-links.is-expanded {
     /*right: 0;*/
-    transform: translateX(0);
+    transform: translateX(100%);
 
 }
 
