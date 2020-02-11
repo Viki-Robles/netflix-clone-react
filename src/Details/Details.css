@@ -1,63 +1,4 @@
-* {
-    
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    
-}
 
-
-
-
-
-.button {
-    font-size: 40px;
-    text-align:center;
-    border-radius:8px;
-    border:2px red;
-    color:black;
-    margin-left:100%;
-    background-color:red;
-}
-
-
-    
-  
-
-
-
-/*------------------------------Desktop Version----------------------------*/
-
-
-@media(min-width:600px) {
-
-    .Details {
-        display:flex;
-        flex-wrap: wrap;
-        
-    }
-
-    .Details h1 {
-        flex-grow: 1;
-    }
-
-    .Details.image {
-        flex-grow:2;
-    }
-
-    .Details.tex {
-        flex-grow:1;
-    }
-    .button {
-        font-size: 40px;
-        text-align:center;
-        border-radius:8px;
-        border:2px red;
-        color:black;
-        margin-left:100%;
-        background-color:red;
-        }
-}
 
 
     
@@ -77,3 +18,4 @@
 
 
 }
+

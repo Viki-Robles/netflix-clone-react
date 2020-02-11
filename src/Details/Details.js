@@ -35,23 +35,24 @@ export default class Details extends React.Component {
       return (
 
         <div className="Details">
-          <div className="section">
-            <div>
-              <h1>{this.state.movietitle.name}</h1>
+
+        <div className="content">
+          <div className="title">
+            <h1>{this.state.movietitle.name}</h1>
             </div>
+              <h2>{this.state.movietitle.details}</h2>
+              </div>
+
+          <div className="content">
             <img className="image"
               src={this.state.movietitle.logo}
               alt={this.state.movietitle.name} />
+          <Play className="play" />
+          <Link to='/'><button className="button">Home</button></Link>
           </div>
 
-          <div className="section">
-            <div className="text">
-            <h2>{this.state.movietitle.details}</h2>
-            </div>
-            <Play />
-            <Link to='/'><button className="button">Home</button></Link>
-          </div>
         </div>
+
       );
     }
   }
