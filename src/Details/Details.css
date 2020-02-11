@@ -1,7 +1,4 @@
 
-
- 
-
   .Details .content .text {
     color:white;
     text-align: center;
@@ -16,8 +13,25 @@ body {
 .content h1 {
     color:white;
     animation:title 3s 1;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
     padding-bottom:40px;
+    position: relative;
+    margin-bottom:20px;
+    font-weight:700;
+
+}
+
+@keyframes title {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        
+    }
+
+
 }
 
 .content .image {
@@ -44,51 +58,32 @@ body {
     border-radius:60px solid black;
 }
 
-@keyframes title {
-    0% {
-        color: black;
-        margin-bottom: -40px;
-    }
-    30% {
-        letter-spacing: 25px;
-        margin-bottom: -40px;
-    }
 
 
-}
 
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600) and (max-width:1007px) {
     /* For desktop: */
-}
-
-
-
-@media only screen and (min-width: 600px) {
-        /* For tablets: */
-   
-
-    
-
-    
-}
-    
-
-
-
-
-
-
-@keyframes title {
-    0% {
-        color: black;
-        margin-bottom: -40px;
-    }
-    30% {
-        letter-spacing: 25px;
-        margin-bottom: -40px;
+    .Details .content {
+        display: grid;
+        grid-template-columns:1fr 2fr;
+        grid-column-gap: 1em;
+        padding:0 20px;
     }
 
-
 }
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
 

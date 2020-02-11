@@ -24,6 +24,7 @@ class App extends Component {
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
                 <Route exact path='/:movietitleId' component={Details} />
+                <Route exact path='/:showId/play' component={Play}/>
               </Switch>
             </div>
           </div>
