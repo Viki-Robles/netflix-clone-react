@@ -33,8 +33,9 @@ export default class Details extends React.Component {
       return <Redirect to='not-found' />;
     } else {
       return (
+
         <div className="Details">
-          <div className="section1">
+          <div className="section">
             <div>
               <h1>{this.state.movietitle.name}</h1>
             </div>
@@ -42,8 +43,11 @@ export default class Details extends React.Component {
               src={this.state.movietitle.logo}
               alt={this.state.movietitle.name} />
           </div>
-          <div className="section2">
+
+          <div className="section">
+            <div className="text">
             <h2>{this.state.movietitle.details}</h2>
+            </div>
             <Play />
             <Link to='/'><button className="button">Home</button></Link>
           </div>
