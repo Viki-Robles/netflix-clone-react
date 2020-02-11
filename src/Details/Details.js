@@ -39,14 +39,18 @@ export default class Details extends React.Component {
 
           <div className="content">
             <h1>{this.state.movietitle.name}</h1>
-            <div>{this.state.movietitle.details}</div>
+            
+            <div className="text">{this.state.movietitle.details}</div>
+           
           </div>
 
           <div className="content">
             <img className="image"
               src={this.state.movietitle.logo}
               alt={this.state.movietitle.name} />
-            <Play className="play" />
+            <div className="play">
+            <Play/>
+            </div>
             <Link to='/'><button className="button">Home</button></Link>
           </div>
 
