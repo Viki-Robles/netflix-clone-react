@@ -1,6 +1,14 @@
 
 
+@media(min-width:600px) {
+    .Details {
+        display: grid;
+    }
 
+    .Details .content {
+        display: flex;
+    }
+}
     
 
 

@@ -34,21 +34,20 @@ export default class Details extends React.Component {
     } else {
       return (
 
-        <div className="Details">
 
-        <div className="content">
-          <div className="title">
+        <div clasName="Details">
+
+          <div className="content">
             <h1>{this.state.movietitle.name}</h1>
-            </div>
-              <h2>{this.state.movietitle.details}</h2>
-              </div>
+            <div>{this.state.movietitle.details}</div>
+          </div>
 
           <div className="content">
             <img className="image"
               src={this.state.movietitle.logo}
               alt={this.state.movietitle.name} />
-          <Play className="play" />
-          <Link to='/'><button className="button">Home</button></Link>
+            <Play className="play" />
+            <Link to='/'><button className="button">Home</button></Link>
           </div>
 
         </div>
