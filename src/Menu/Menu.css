@@ -88,7 +88,10 @@
 
     }
 
-
+.Menu-link:visited {
+    background-color:white;
+    
+}
 
 } 
 
