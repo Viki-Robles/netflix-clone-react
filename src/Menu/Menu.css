@@ -88,9 +88,13 @@
 
     }
 
-.Menu-link:visited {
+.Menu-link:link {
     background-color:white;
     
+}
+
+.Menu-link:active {
+    color:black;
 }
 
 } 
