@@ -89,13 +89,15 @@
     }
 
 .Menu-link:hover {
-    background-color:white;
+    background-color:#333333;
     border-radius:10px;
+    
     
 }
 
 .Menu-link:active {
     color:black;
+    font-size:150%;
 }
 
 } 
