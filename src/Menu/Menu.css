@@ -88,8 +88,9 @@
 
     }
 
-.Menu-link:link {
+.Menu-link:hover {
     background-color:white;
+    border-radius:10px;
     
 }
 
