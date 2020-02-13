@@ -45,6 +45,7 @@ export default class Details extends React.Component {
           </div>
 
           <div className="content">
+
             <img className="image"
               src={this.state.movietitle.logo}
               alt={this.state.movietitle.name} />
@@ -53,8 +54,9 @@ export default class Details extends React.Component {
             </div>
             <Link to='/'><button className="button">Home</button></Link>
           </div>
+          </div>
 
-        </div>
+       
 
       );
     }
