@@ -47,8 +47,7 @@ export default class Details extends React.Component {
           <div className="content">
 
             <img className="image"
-              src={this.state.movietitle.logo}
-              alt={this.state.movietitle.name} />
+              src={this.state.movietitle.cover}/>
             <div className="play">
             <Play/>
             </div>
@@ -73,6 +72,12 @@ export default class Details extends React.Component {
                 <Play/>
               </div>
             <Link to='/'><button className="button">Home</button></Link>
+
+
+
+<img className="image"
+              src={this.state.movietitle.logo}
+              alt={this.state.movietitle.name} />
           </div>*/
 
 
