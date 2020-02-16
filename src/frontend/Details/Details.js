@@ -47,10 +47,11 @@ export default class Details extends React.Component {
           <div className="content">
 
             <img className="image"
-              src={this.state.movietitle.cover}/>
-            <div className="play">
+              src={this.state.movietitle.cover}
+              />
+            <button className="play">
             <Play/>
-            </div>
+            </button>
             <Link to='/'><button className="button">Home</button></Link>
           </div>
           </div>

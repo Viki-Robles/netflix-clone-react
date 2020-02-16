@@ -5,6 +5,8 @@
     justify-content: flex-end;
     overflow:hidden;
     width: 100vw;
+    cursor: pointer;
+    
     
       
 }
@@ -24,16 +26,19 @@
     z-index:1;
     background-color:#333333;
     border-radius:4px;
+    
 }
 
 .Menu-links.is-expanded {
     /*right: 0;*/
     transform: translateX(100%);
+    
 
 }
 
 .Menu-link {
    padding:20px;
+   
 }
 
 
