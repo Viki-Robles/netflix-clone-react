@@ -12,7 +12,7 @@
 .Menu-links {
     transition: transform ease 0.7s;
     color:red;
-    position: absolute;
+    position: relative;
     top:0;
     bottom:0;
     width: 200px;
@@ -22,8 +22,8 @@
     transform: translateX(0);
     overflow: hidden;
     z-index:1;
-    background-color:grey;
-    
+    background-color:#333333;
+    border-radius:4px;
 }
 
 .Menu-links.is-expanded {
@@ -42,7 +42,6 @@
     display:block;
     padding:15px;
     margin-top:15px;
-    margin-right:15px;
     z-index: 2;
     color:red;
     font-size: 15 px;
@@ -51,6 +50,7 @@
     border-radius:4px;
     font-size:18px;
     height:80px;
+    left:180px;
 
 
     
