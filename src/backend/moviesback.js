@@ -1,6 +1,5 @@
 
-
-function getMovieTitle() {
+module.exports = function getMovieTitle() {
 
     return [
 
