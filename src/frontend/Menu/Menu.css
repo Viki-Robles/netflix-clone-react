@@ -13,7 +13,7 @@
 
 .Menu-links {
     transition: transform ease 0.7s;
-    color:red;
+    color:white;
     position: relative;
     top:0;
     bottom:0;
@@ -24,7 +24,7 @@
     transform: translateX(0);
     overflow: hidden;
     z-index:1;
-    background-color:#333333;
+    background-color:red;
     border-radius:4px;
     
 }
@@ -80,7 +80,7 @@
     
     .Menu-links { 
         display:flex;
-        color:red;
+        color:white;
         justify-content: flex-end;
         padding-top:0;
         width:auto;
@@ -104,7 +104,7 @@
     }
 
 .Menu-link:hover {
-    background-color:#333333;
+    background-color:red;
     border-radius:10px;
     
     
