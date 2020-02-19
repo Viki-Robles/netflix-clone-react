@@ -48,7 +48,6 @@ h2 {
 .background-image {
 background-image: url("./mollygame.jpg") ;
 width:100%;
-
 background-repeat: no-repeat;
 background-size: cover;
 margin-bottom:30px;

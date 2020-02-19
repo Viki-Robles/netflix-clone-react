@@ -12,6 +12,10 @@
       
 }
 
+.Menu-link .contact {
+    color:white;
+}
+
 .Menu-links {
     transition: transform ease 0.7s;
     color:white;
@@ -71,13 +75,13 @@
     .Menu-links {
         padding-top:50px;
     }
-
+   
 
 }
 
 
 @media(min-width: 600px) {
-
+    
     
     .Menu-links { 
         display:flex;
