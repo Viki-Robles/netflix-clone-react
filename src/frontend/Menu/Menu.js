@@ -30,7 +30,6 @@ toggleState() {
                     <div className="Menu-link"><b>Series</b></div>
                     <div className="Menu-link"><b>About</b></div>
                     <Link to={'/contact' + Contact}>Contact</Link>
-
                 </div>
             </div>
         );

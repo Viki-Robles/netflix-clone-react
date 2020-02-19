@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ScrollToTop extends React.Component {
+export default class ScrollToTop extends React.Component {
   componentDidUpdate(prevProps) {
     if (
       this.props.location.pathname !== prevProps.location.pathname

@@ -10,12 +10,15 @@ import './Menu/Menu.css';
 import Play from './Play/Play';
 import Footer from './Footer/footer';
 import Contact from './Contact/contact';
+import { withRouter } from "react-router-dom"
+import ScrollToTop from './scrollmenu/scrollmenu';
 
 class App extends Component {
   render() {
     return (
 
       <Router>
+        <ScrollToTop />
         <div className="App">
           <Menu />
           <div className="header">
@@ -26,7 +29,7 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
-                <Route exact path='/:contact' component={Contact} />
+                <Route exact path='/contact' component={Contact} />
                 <Route exact path='/:movietitleId' component={Details} />
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
@@ -45,7 +48,6 @@ class App extends Component {
   }
 
 }
-
 export default App;
 
 /**export default withRouter(ScrollToTop)

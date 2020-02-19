@@ -53,6 +53,7 @@ export default class Details extends React.Component {
             <Link to='/'><button className="button">Home</button></Link>
           </div>
           </div>
+        
 
        
 
