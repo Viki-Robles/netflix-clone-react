@@ -23,6 +23,7 @@ class App extends Component {
           <Menu />
           <div className="header">
             <h1>KodFlix</h1>
+            
           </div>
           <div>
             <div>
@@ -34,11 +35,11 @@ class App extends Component {
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
               <div>
-
+              <Footer/>
               </div>
             </div>
           </div>
-         
+
         </div>
       </Router>
 
