@@ -25,7 +25,7 @@ toggleState() {
                     <div className="Menu-link"><b>Home</b></div>
                     <div className="Menu-link"><b>Series</b></div>
                     <div className="Menu-link"><b>About</b></div>
-                    <div className="Menu-link"><b>Contact</b></div>
+                    <div className="Menu-link contact-button"><b>Contact</b></div>
                 </div>
             </div>
         );
@@ -41,5 +41,3 @@ function MenuButton({ isExpanded, onButtonClicked }) {
         </button>
     );
 }
-
-/**? "Yes": "No" */

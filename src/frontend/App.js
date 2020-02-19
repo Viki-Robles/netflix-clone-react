@@ -8,7 +8,7 @@ import NotFound from './NotFound';
 import Menu from './Menu/Menu';
 import './Menu/Menu.css';
 import Play from './Play/Play';
-import Footer from './footer/footer';
+import Footer from './Footer/footer';
 
 class App extends Component {
   render() {
@@ -27,23 +27,18 @@ class App extends Component {
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
                 <Route exact path='/:movietitleId' component={Details} />
+                <Route exact path='/:contact' component={Menu}/>
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
               <div>
-                <footer class="footer">
-                  <ul>
-                    <li>Address: 199 Eade Road, N4 1DN, London</li>
-                    <li>Email: vasiliki.robles@gmail.com</li>
-                  </ul>
-                  <div class='copywrite'>
-                    <p>Copywrite 2019. KodFlix all rights reserved.</p>
-                  </div>
-                </footer>
+                
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
       </Router>
+     
 
 
     );
@@ -58,10 +53,6 @@ export default App;
 <img src={logo} className="App-logo" alt="logo"/>
           <div className="background-image">
         <img src={molly} className="App-logo" alt="logo"/>
-
-<Route exact path='/not-found' component={NotFound}/>
-
-<Route exact path='/:showId/play' component={Play}/>
  */
 
 
