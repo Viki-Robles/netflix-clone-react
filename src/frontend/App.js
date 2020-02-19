@@ -9,36 +9,36 @@ import Menu from './Menu/Menu';
 import './Menu/Menu.css';
 import Play from './Play/Play';
 import Footer from './Footer/footer';
+import Contact from './Contact/contact';
 
 class App extends Component {
   render() {
     return (
 
       <Router>
-
         <div className="App">
           <Menu />
           <div className="header">
-          <h1>KodFlix</h1>
+            <h1>KodFlix</h1>
           </div>
           <div>
             <div>
               <Switch>
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
+                <Route exact path='/:contact' component={Contact} />
                 <Route exact path='/:movietitleId' component={Details} />
-                <Route exact path='/:contact' component={Menu}/>
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
               <div>
-                
+
               </div>
             </div>
           </div>
-          <Footer/>
+         
         </div>
       </Router>
-     
+
 
 
     );
@@ -48,6 +48,12 @@ class App extends Component {
 
 export default App;
 
+/**export default withRouter(ScrollToTop)
+ * import { withRouter } from "react-router-dom"
+ *         <ScrollToTop />
+;
+;
+ */
 
 /*
 <img src={logo} className="App-logo" alt="logo"/>

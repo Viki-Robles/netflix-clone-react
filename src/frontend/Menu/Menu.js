@@ -1,6 +1,10 @@
 import React from 'react';
 import './Menu.css';
 
+import { Link, Redirect } from 'react-router-dom';
+import Contact from '../Contact/contact';
+
+
 export default class Menu extends React.Component {
     constructor() {
         super();
@@ -25,7 +29,8 @@ toggleState() {
                     <div className="Menu-link"><b>Home</b></div>
                     <div className="Menu-link"><b>Series</b></div>
                     <div className="Menu-link"><b>About</b></div>
-                    <div className="Menu-link contact-button"><b>Contact</b></div>
+                    <Link to={'/contact' + Contact}>Contact</Link>
+
                 </div>
             </div>
         );
