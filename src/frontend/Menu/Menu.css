@@ -1,4 +1,4 @@
-/*Mobile version*/
+
 
 .Menu {
     display:flex;
@@ -18,15 +18,15 @@
 
 .Menu-links {
     transition: transform ease 0.7s;
+    transform: translateX(0);
+    will-change: transform;
     color:white;
     position: relative;
     top:0;
     bottom:0;
     width: 200px;
-    will-change: transform;
     padding-top:100px;
     /*right: -200px;*/
-    transform: translateX(0);
     overflow: hidden;
     z-index:1;
     background-color:red;
@@ -34,13 +34,13 @@
     
 }
 
+
 .Menu-links.is-expanded {
     /*right: 0;*/
     transform: translateX(100%);
     
 
 }
-
 .Menu-link {
    padding:20px;
    
@@ -83,6 +83,12 @@
 @media(min-width: 600px) {
     
     
+    .Menu-links.is-expanded {
+        /*right: 0;*/
+        transform: translateX(0);
+        
+    
+    }
     .Menu-links { 
         display:flex;
         color:white;
@@ -94,6 +100,8 @@
         position: relative;
         
     }
+
+   
     .Menu-link {
         font-size:20px;
         
@@ -120,5 +128,14 @@
     font-size:150%;
 }
 
-} 
+
+.Menu-links a {
+    color:white;
+    text-decoration: none;
+
+}
+
+
+
+}
 

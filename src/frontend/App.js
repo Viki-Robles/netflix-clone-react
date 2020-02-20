@@ -14,14 +14,12 @@ import ScrollToTop from './scrollmenu/scrollmenu';
 class App extends Component {
   render() {
     return (
-
       <Router>
-       
+      <ScrollToTop />
         <div className="App">
           <Menu />
           <div className="header">
             <h1>KodFlix</h1>
-            
           </div>
           <div>
             <div>
@@ -32,9 +30,8 @@ class App extends Component {
                 <Route exact path='/:movietitleId' component={Details} />
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
-              <div>
-              <Footer/>
-              </div>
+              {prop ? false : <Footer/>}
+             
             </div>
           </div>
         </div>
@@ -42,6 +39,7 @@ class App extends Component {
 
 
     );
+
   }
 
 }
@@ -59,6 +57,9 @@ export default App;
 <img src={logo} className="App-logo" alt="logo"/>
           <div className="background-image">
         <img src={molly} className="App-logo" alt="logo"/>
+
+conditional rendering using fasle or true statement for Footer
+      
  */
 
 

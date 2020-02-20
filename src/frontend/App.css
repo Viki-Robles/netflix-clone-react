@@ -125,17 +125,7 @@ margin-bottom:30px;
   position: absolute;
 }
 
-footer {
-  padding-top:30px;
-  padding-bottom:15px;
-  color:white;
-  text-align:center;
-}
 
-footer ul {
-  padding:10px;
-  
-}
 
 @media(max-width:600px) {
   .container {

@@ -25,12 +25,12 @@ export default class Menu extends React.Component {
                     isExpanded={isExpanded}
                     onButtonClicked={() => this.toggleState()} />
 
-                <div className={`Menu-links ${this.state.isExpanded ? "is-expanded" : ""}`}>
+                <div className={`Menu-links ${this.state.isExpanded ? "" : "is-expanded"}`}>
                     <div className="Menu-link"><b>Home</b></div>
                     <div className="Menu-link"><b>Series</b></div>
                     <div className="Menu-link"><b>About</b></div>
-                    <Link to={'/contact' + Contact} 
-                    className="Menu-link">Contact</Link>
+                    <Link to={'/contact'} 
+                    className="Menu-link"><b>Contact</b></Link>
                     
                 </div>
             </div>
