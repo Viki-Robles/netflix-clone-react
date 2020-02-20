@@ -1,8 +1,7 @@
 import React from 'react';
 import './Menu.css';
-
 import { Link, Redirect } from 'react-router-dom';
-import Contact from '../Contact/contact';
+
 
 
 export default class Menu extends React.Component {
@@ -29,8 +28,10 @@ export default class Menu extends React.Component {
                     <div className="Menu-link"><b>Home</b></div>
                     <div className="Menu-link"><b>Series</b></div>
                     <div className="Menu-link"><b>About</b></div>
-                    <Link to={'/contact'} 
-                    className="Menu-link"><b>Contact</b></Link>
+                    <div className="Menu-link"><b>Contact</b></div>
+
+                    <Link to={'/signup'} 
+                    className="Menu-link"><b>Sign Up</b></Link>
                     
                 </div>
             </div>

@@ -8,8 +8,8 @@ import Menu from './Menu/Menu';
 import './Menu/Menu.css';
 import Play from './Play/Play';
 import Footer from './Footer/footer';
-import Contact from './Contact/contact';
 import ScrollToTop from './scrollmenu/scrollmenu';
+import SignUp from './signup/signup';
 
 class App extends Component {
   render() {
@@ -26,11 +26,11 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
-                <Route exact path='/contact' component={Contact} />
+                <Route exact path='/signup' component={SignUp} />
                 <Route exact path='/:movietitleId' component={Details} />
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
-              {prop ? false : <Footer/>}
+              
              
             </div>
           </div>
@@ -59,7 +59,7 @@ export default App;
         <img src={molly} className="App-logo" alt="logo"/>
 
 conditional rendering using fasle or true statement for Footer
-      
+      {prop ? false : <Footer/>}
  */
 
 
