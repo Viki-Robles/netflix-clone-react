@@ -7,7 +7,7 @@ export default class ScrollToTop extends React.Component {
     if (
       this.props.location.pathname !== prevProps.location.pathname
     ) {
-      window.scrollTo(0, 0);
+      window.scrollTop(0, 0);
     }
   }
 

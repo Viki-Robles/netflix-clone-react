@@ -6,6 +6,7 @@
     overflow:hidden;
     width: 100vw;
     cursor: pointer;
+   
     
     
     
@@ -82,7 +83,9 @@
 
 @media(min-width: 600px) {
     
-    
+    .Menu {
+        position:sticky;
+    }
     .Menu-links.is-expanded {
         /*right: 0;*/
         transform: translateX(0);
