@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './signup.css';
 import { Link } from 'react-router-dom';
+import ValidationForm from './ValidationForm';
 
 
 export default function SignUp() {
@@ -10,6 +11,7 @@ export default function SignUp() {
             <div className="Menu-link contact">
                 <Link to='/signup'>
                     <h1>Sign Up</h1>
+                    <ValidationForm/>
 
                 </Link>
                 <br />
