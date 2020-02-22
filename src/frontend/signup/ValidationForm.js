@@ -6,7 +6,7 @@ export default class ValidationForm extends Component {
         lastName: '',
         email: '',
         password: '',
-        
+
 
     };
 
@@ -34,57 +34,42 @@ export default class ValidationForm extends Component {
                             placeholder="First Name"
                             value={this.state.firstName}
                             onChange={this.handleChange}
-
                         />
                     </div>
-
                     <div>
                         <input
                             name="Last Name"
                             placeholder="Last Name"
                             value={this.state.lastName}
                             onChange={this.handleChange}
-
                         />
                     </div>
-
                     <div>
                         <input
                             name="email"
                             placeholder="email"
                             value={this.state.email}
                             onChange={this.handleChange}
-
                         />
                     </div>
-
                     <div>
                         <input
                             name="password"
                             placeholder="password"
                             value={this.state.password}
                             onChange={this.handleChange}
-
                         />
                     </div>
                     <div>
-                        <label className="label">Choose your gender..</label>
+                        <label>Choose your gender..</label>
                         <br/>
                         <select
-                        type="text" required>
+                            type="text" required>
                             <option>M</option>
                             <option>F</option>
-
                         </select>
-                           
-
-                        
                     </div>
-
-
-
                 </form>
-
             </div>
         );
     }
