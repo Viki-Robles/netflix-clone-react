@@ -47,24 +47,14 @@ class App extends Component {
 export default App;
 
 /**export default withRouter(ScrollToTop)
- * 
- * 
- * 
- * 
- * import { withRouter } from "react-router-dom"
- *         <ScrollToTop />
-;
-;import molly from './mollygame.jpg';
 
- */
 
-/*
-<img src={logo} className="App-logo" alt="logo"/>
-          <div className="background-image">
-        <img src={molly} className="App-logo" alt="logo"/>
 
 conditional rendering using fasle or true statement for Footer
-      {prop ? false : <Footer/>}
+      {props + '/contact' ? false : <Footer/>}
+
+      if Footer is at /contact return false otherwise return true
+      {}
  */
 
 
