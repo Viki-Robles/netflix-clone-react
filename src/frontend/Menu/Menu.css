@@ -17,6 +17,14 @@
     color:white;
 }
 
+
+.Menu-links a {
+    color:white;
+    text-decoration: none;
+    margin-bottom:5px;
+
+}
+
 .Menu-links {
     transition: transform ease 0.7s;
     transform: translateX(0);
