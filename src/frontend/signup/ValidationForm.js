@@ -25,23 +25,23 @@ export default class ValidationForm extends Component {
     render() {
         return (
             <div>
-                <form onSumbit={() => this.handleSubmit()}>
+                <form onSumbit={this.handleSubmit}>
                     <div>
                         <input
-                            name="firstName"
-                            placeholder="firstName"
+                            name="First Name"
+                            placeholder="First Name"
                             value={this.state.firstName}
-                            onChange={() => this.handleChange()}
+                            onChange={this.handleChange}
 
                         />
                     </div>
 
                     <div>
                         <input
-                            name="lastName"
-                            placeholder="lastName"
+                            name="Last Name"
+                            placeholder="Last Name"
                             value={this.state.lastName}
-                            onChange={() => this.handleChange()}
+                            onChange={this.handleChange}
 
                         />
                     </div>
@@ -51,7 +51,7 @@ export default class ValidationForm extends Component {
                             name="email"
                             placeholder="email"
                             value={this.state.email}
-                            onChange={() => this.handleChange()}
+                            onChange={this.handleChange}
 
                         />
                     </div>
@@ -61,7 +61,7 @@ export default class ValidationForm extends Component {
                             name="password"
                             placeholder="password"
                             value={this.state.password}
-                            onChange={() => this.handleChange()}
+                            onChange={this.handleChange}
 
                         />
                     </div>
