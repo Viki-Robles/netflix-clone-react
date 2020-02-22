@@ -6,6 +6,8 @@ export default class ValidationForm extends Component {
         lastName: '',
         email: '',
         password: '',
+        
+
     };
 
     handleChange = event => {
