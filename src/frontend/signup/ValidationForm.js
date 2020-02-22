@@ -67,7 +67,19 @@ export default class ValidationForm extends Component {
 
                         />
                     </div>
+                    <div>
+                        <label className="label">Choose your gender..</label>
+                        <br/>
+                        <select
+                        type="text" required>
+                            <option>M</option>
+                            <option>F</option>
 
+                        </select>
+                           
+
+                        
+                    </div>
 
 
 

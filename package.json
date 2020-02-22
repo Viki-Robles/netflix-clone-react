@@ -14,8 +14,8 @@
     "serve": "^11.3.0"
   },
   "scripts": {
-    "start-all":"npm-run-all <start-dev><start-backend>",
     "start-dev": "react-scripts start",
+    "start-all": "npm-run-all -p start start-backend",
     "start-backend": "node ./src/backend/app.js",
     "start": "serve -s build",
     "build": "react-scripts build",

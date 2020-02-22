@@ -25,6 +25,14 @@ form {
 
 .signUpForm h3 {
     font-size:30px;
-    color:red;
+    color:white;
     vertical-align: middle;
+    padding-top:50px;
 }
+
+.label {
+    text-decoration: none;
+    color:white;
+    
+}
+
