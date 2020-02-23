@@ -60,15 +60,7 @@ export default class ValidationForm extends Component {
                             onChange={this.handleChange}
                         />
                     </div>
-                    <div>
-                        <label>Choose your gender..</label>
-                        <br/>
-                        <select
-                            type="text" required>
-                            <option>M</option>
-                            <option>F</option>
-                        </select>
-                    </div>
+                    
                 </form>
             </div>
         );
