@@ -27,7 +27,8 @@ export default class Menu extends React.Component {
 
                     <div className={`Menu-links ${this.state.isExpanded ? "" : "is-expanded"}`}>
                         <div className="Menu-link"><b>Home</b></div>
-                        <div className="Menu-link"><b>Series</b></div>
+                        <Link to={'/series'}
+                            className="Menu-link"><b>Series</b></Link>
                         <div className="Menu-link"><b>About</b></div>
                         <div className="Menu-link"><b>Contact</b></div>
 
