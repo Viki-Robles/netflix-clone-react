@@ -15,3 +15,4 @@ export default class ScrollToTop extends React.Component {
     return null;
   }
 }
+

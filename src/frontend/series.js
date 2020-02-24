@@ -8,8 +8,6 @@ export default function Series() {
             <title>Series</title>
             <Link to='/series'></Link>
             <h3>Choose your favourite movie</h3>
-
-
             <select
                 type="text" required>
                 <option>Adventure</option>
@@ -19,8 +17,7 @@ export default function Series() {
                 <option>Fantasy</option>
                 <option>Sci-Fi</option>
             </select>
-            <br/>
-
+            <br />
             <Link to='/'><button className="buttonHome">Home</button></Link>
 
 
@@ -37,42 +34,50 @@ export default class ChooseMovie extends React.Component {
     constructor(props)
     super(props); {
         this.state = {
-            <select
-                type="text" required>
-                <option>Adventure</option>
-                <option>Drama</option>
-                <option>Romantic</option>
-                <option>Documentary</option>
-                <option>Fantasy</option>
-                <option>Sci-Fi</option>
-            </select>
 
+        option: 'Adventure',
+        option: 'Drama',
+        option: 'Anime',
+        option: 'SciFy',
+        option: 'Documentary',
+        option: 'Fantasy',
+   }
+}
+    chooseMovie(e) {
+       this.setState({ option: e.target.value});
+
+        let option = ['Adventure', 'Drama', 'Anime'];
+        this.setState {
+
+        if ( select.option === 'Adventure') {
+            return movietitle.id.bleach;
+        }
+
+        if ( select.option === 'Drama') {
+            return movietitle.id.theWitcher;
         }
     }
 
-
-function choooseMovie(){
-    const movies = movietitle.id;
-    this.setState{(
-    if (select.option === 'Adventure') {
-        return movietitle.id.bleach;
-}   if (select.option === 'Drama') {
-        return movietitle.id.fairytail
     }
-
 )}
-        
+
 render () {
     return (
         <div>
             <div>{this.state.chooseMovie()}</div>
+            <select
+                type="text" required>
+                <option>`${props.option}Adventure`</option>
+                <option>`${props.option}Drama`</option>
+
+            </select>
             <Link to= '/:movietitleId'></Link>
         </div>
     );
 }
 
 }
-    
+
 
 
 

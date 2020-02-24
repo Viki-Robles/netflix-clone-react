@@ -55,4 +55,7 @@ function MenuButton({ isExpanded, onButtonClicked }) {
     );
 }
 
-/**'/contact' + */
+/**'/contact' + 
+ 
+<Link to="#Contact">Contact</Link
+*/
