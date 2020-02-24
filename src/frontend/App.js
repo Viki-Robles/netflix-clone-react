@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <ScrollToTop />
+        <ScrollToTop />
         <div className="App">
           <Menu />
           <div className="header">
@@ -32,13 +32,12 @@ class App extends Component {
                 <Route exact path='/:movietitleId' component={Details} />
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
-              
-             
             </div>
-            <br/>
+            <br />
             <div>
               Contact
             </div>
+            <Footer />
           </div>
         </div>
       </Router>
@@ -57,16 +56,7 @@ export default App;
 
 
 conditional rendering using fasle or true statement for Footer
-      {props + '/contact' ? false : <Footer/>}
-
-      if Footer is at /contact return false otherwise return true
-      {}
-
-
-  let user = { name: 'Peter, age: 21};
-
-
- */
+      {props + '/contact' ? false : <Footer/>}*/
 
 
 

@@ -15,9 +15,9 @@ export default function SignUp() {
                     </Link>
                     <br />
                 </div>
-                <div>
-                    <Link to='/'><button className="buttonHome">Home</button></Link>
-                </div>
+               
+                <Link to='/'><button className="buttonHome">Home</button></Link>
+               
             </div>
         </>
     );
