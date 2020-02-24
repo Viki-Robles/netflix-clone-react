@@ -3,10 +3,24 @@
     font-family: Arial;
   }
 
-  
+  .series-title h3 {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size:30px;
+
+  }
+
+  .series-main {
+      background-color:black;
+      height:80vh
+  }
   
   .select-selected {
     background-color: DodgerBlue;
+  }
+
+  .series-button {
+      padding-top:20%;
   }
 
   /* Style the arrow inside the select element: */
@@ -25,4 +39,13 @@ position: absolute;
 .select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
     top: 7px;
+  }
+
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
   }

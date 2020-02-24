@@ -5,10 +5,12 @@ import './series.css';
 
 export default function Series() {
     return (
-        <div>
+        <div className="series-main">
             <title>Series</title>
             <Link to='/series'></Link>
-            <h3>Choose your favourite movie</h3>
+            <div className="series-title">
+            <h3>Series</h3>
+            </div>
             <div class="custom-select">
             <select>
                 <option>Adventure</option>
@@ -20,8 +22,9 @@ export default function Series() {
             </select>
             </div>
             <br />
+            <div className="series-button">
             <Link to='/'><button className="buttonHome">Home</button></Link>
-
+            </div>
 
         </div>
     );
