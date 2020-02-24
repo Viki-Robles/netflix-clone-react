@@ -10,7 +10,6 @@ import Play from './Play/Play';
 import Footer from './Footer/footer';
 import ScrollToTop from './scrollmenu/scrollmenu';
 import SignUp from './signup/signup';
-import Series from './series';
 
 class App extends Component {
   render() {
@@ -28,7 +27,6 @@ class App extends Component {
                 <Route exact path='/' component={Gallery} />
                 <Route exact path='/not-found' component={NotFound} />
                 <Route exact path='/signup' component={SignUp} />
-                <Route exact path='/series' component={Series} />
                 <Route exact path='/:movietitleId' component={Details} />
                 <Route exact path='/:showId/play' component={Play} />
               </Switch>
