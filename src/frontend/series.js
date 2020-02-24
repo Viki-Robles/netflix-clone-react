@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import './series.css';
 
 
 export default function Series() {
@@ -8,6 +9,7 @@ export default function Series() {
             <title>Series</title>
             <Link to='/series'></Link>
             <h3>Choose your favourite movie</h3>
+        <div></div>
             <select
                 type="text" required>
                 <option>Adventure</option>

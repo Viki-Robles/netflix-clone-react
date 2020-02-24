@@ -35,6 +35,10 @@ class App extends Component {
               
              
             </div>
+            <br/>
+            <div>
+              Contact Details
+            </div>
           </div>
         </div>
       </Router>
@@ -57,6 +61,11 @@ conditional rendering using fasle or true statement for Footer
 
       if Footer is at /contact return false otherwise return true
       {}
+
+
+  let user = { name: 'Peter, age: 21};
+
+
  */
 
 
