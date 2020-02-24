@@ -37,7 +37,7 @@ class App extends Component {
             </div>
             <br/>
             <div>
-              Contact Details
+              Contact
             </div>
           </div>
         </div>

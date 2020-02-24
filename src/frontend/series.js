@@ -9,9 +9,8 @@ export default function Series() {
             <title>Series</title>
             <Link to='/series'></Link>
             <h3>Choose your favourite movie</h3>
-        <div></div>
-            <select
-                type="text" required>
+            <div class="custom-select">
+            <select>
                 <option>Adventure</option>
                 <option>Drama</option>
                 <option>Romantic</option>
@@ -19,6 +18,7 @@ export default function Series() {
                 <option>Fantasy</option>
                 <option>Sci-Fi</option>
             </select>
+            </div>
             <br />
             <Link to='/'><button className="buttonHome">Home</button></Link>
 

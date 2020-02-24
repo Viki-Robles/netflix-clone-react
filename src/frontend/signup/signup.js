@@ -10,8 +10,7 @@ export default function SignUp() {
             <div className="signUpForm">
                 <div className="Menu-link contact">
                     <h3>Sign Up</h3>
-                    <Link to='/signup'>
-                        
+                    <Link to='/signup'>  
                         <ValidationForm />
                     </Link>
                     <br />
