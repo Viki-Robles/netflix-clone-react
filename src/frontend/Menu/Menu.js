@@ -30,8 +30,9 @@ export default class Menu extends React.Component {
                         <Link to={'/series'}
                             className="Menu-link"><b>Series</b></Link>
                         <div className="Menu-link"><b>About</b></div>
-                        <div className="Menu-link"><b>Contact</b></div>
+                        <a href="#section2" className="Menu-link contact"><b>Contact</b></a>
 
+                        
 
                         <Link to={'/signup'}
                             className="Menu-link"><b>Sign Up</b></Link>

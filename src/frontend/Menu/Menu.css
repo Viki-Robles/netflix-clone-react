@@ -5,11 +5,7 @@
     justify-content: flex-end;
     overflow:hidden;
     width: 100vw;
-    cursor: pointer;
-   
-    
-    
-    
+    cursor: pointer; 
       
 }
 
@@ -71,8 +67,6 @@
     height:80px;
     left:180px;
 
-
-    
     
 }
 
@@ -146,6 +140,9 @@
 
 }
 
+.Menu-link .contact {
+    scroll-behavior: smooth;
+}
 
 
 }

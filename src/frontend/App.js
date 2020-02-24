@@ -12,7 +12,7 @@ import ScrollToTop from './scrollmenu/scrollmenu';
 import SignUp from './signup/signup';
 
 class App extends Component {
-  render() {
+  render(props) {
     return (
       <Router>
         <ScrollToTop />
@@ -32,10 +32,10 @@ class App extends Component {
               </Switch>
             </div>
             <br />
-            <div>
+            <div className="main" id="section2">
               Contact
             </div>
-            <Footer />
+            {props + '/' ? <Footer/> : false }
           </div>
         </div>
       </Router>
@@ -54,7 +54,11 @@ export default App;
 
 
 conditional rendering using fasle or true statement for Footer
-      {props + '/contact' ? false : <Footer/>}*/
+      {props + '/contact' ? false : <Footer/>}
+      
+ if ('/' ? <Footer/> : false)     
+      
+      */
 
 
 
