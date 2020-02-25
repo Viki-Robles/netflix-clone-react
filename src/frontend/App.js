@@ -32,9 +32,7 @@ class App extends Component {
               </Switch>
             </div>
             <br />
-            <div className="main" id="section2">
-              Contact
-            </div>
+            
             
           </div>
         </div>
@@ -57,7 +55,10 @@ conditional rendering using fasle or true statement for Footer
       {props + '/contact' ? false : <Footer/>}
       
 {props + '/' ? <Footer/> : false }   
-      
+ 
+<div className="main" id="section2">
+              Contact
+            </div>
       */
 
 
