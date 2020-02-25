@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieTitle from './MovieTitle';
 import getMovieTitle from './gallery-get';
-
+import Footer from './Footer/footer';
 
 export default function Gallery(props) {
   return (
@@ -20,6 +20,8 @@ export default function Gallery(props) {
           ))
         }
       </div>
+      <br/>
+        <Footer/>
 
     </div>
 

@@ -35,7 +35,7 @@ class App extends Component {
             <div className="main" id="section2">
               Contact
             </div>
-            {props + '/' ? <Footer/> : false }
+            
           </div>
         </div>
       </Router>
@@ -56,7 +56,7 @@ export default App;
 conditional rendering using fasle or true statement for Footer
       {props + '/contact' ? false : <Footer/>}
       
- if ('/' ? <Footer/> : false)     
+{props + '/' ? <Footer/> : false }   
       
       */
 
