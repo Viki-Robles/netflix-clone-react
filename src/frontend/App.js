@@ -12,16 +12,45 @@ import ScrollToTop from './scrollmenu/scrollmenu';
 import SignUp from './signup/signup';
 import ToolBar from '../ToolBar/ToolBar';
 import SideDrawer from '../SideDrawer/SideDrawer';
+import Backdrop from '../Backdrop/Backdrop';
 
 class App extends Component {
-  render(props) {
+
+  state = {
+    sideDrawerOpen :false
+
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+
+  }
+
+
+  render() {
+    let sideDrawer;
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer/>;
+      backdrop = <Backdrop click={this.backdropClickHandler}/>;
+    }
+
+    
     return (
       <div style={{height: "100%"}}>
       <Router>
         <ScrollToTop />
         <div className="App">
-          <ToolBar/>
-          <SideDrawer/>
+          <ToolBar drawerClickHandler = {this.drawerToggleClickHandler}/>
+          {sideDrawer}
+          {backdrop}
             <h1>KodFlix</h1>
           
           <div>

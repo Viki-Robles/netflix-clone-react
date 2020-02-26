@@ -1,15 +1,16 @@
 import React from 'react';
-
 import './ToolBar.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
-export default function ToolBar() {
+
+
+const ToolBar = props => {
     return (
         <div>
             <header className="toolbar">
                 <nav className="toolbar_navigation">
                     <div>
-                    <DrawerToggleButton/>
+                    <DrawerToggleButton click={props.drawerClickHandler}/>
                     </div>
                     <div className="spacer"></div>
                     <div className="toolbar_navigation-items">
@@ -25,3 +26,5 @@ export default function ToolBar() {
         </div>
     );
 }
+
+export default ToolBar;
