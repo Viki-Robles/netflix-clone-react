@@ -10,6 +10,7 @@ import Play from './Play/Play';
 import Footer from './Footer/footer';
 import ScrollToTop from './scrollmenu/scrollmenu';
 import SignUp from './signup/signup';
+import ToolBar from '../ToolBar/ToolBar';
 
 class App extends Component {
   render(props) {
@@ -17,10 +18,10 @@ class App extends Component {
       <Router>
         <ScrollToTop />
         <div className="App">
-          <Menu />
-          <div className="header">
+          <ToolBar/>
+          
             <h1>KodFlix</h1>
-          </div>
+          
           <div>
             <div>
               <Switch>

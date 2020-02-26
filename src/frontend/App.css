@@ -22,7 +22,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   justify-content: center;
-  padding-top:60px;
+  padding-top:80px;
   vertical-align: middle;
   cursor: pointer;
 
@@ -143,12 +143,10 @@ margin-bottom:30px;
     vertical-align: middle;
     cursor: pointer;
    
-  
-    
+   
   }
   
   h1 {display: inline-block;}
-
 
  
 }

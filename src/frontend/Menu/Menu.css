@@ -13,7 +13,6 @@
     color:white;
 }
 
-
 .Menu-links a {
     color:white;
     text-decoration: none;
@@ -40,7 +39,6 @@
     
 }
 
-
 .Menu-links.is-expanded {
     /*right: 0;*/
     transform: translateX(100%);
@@ -52,7 +50,6 @@
    padding:20px;
    
 }
-
 
 .MenuButton { 
     position:relative;
@@ -74,7 +71,6 @@
 
 /*Desktop Version*/
 
-
 @media(min-width:900px) {
    
     .Menu-links {
@@ -83,7 +79,6 @@
    
 
 }
-
 
 @media(min-width: 600px) {
     
@@ -118,36 +113,8 @@
     .MenuButton {
         display: none;
         justify-content: right;
-        background-color: red;
-       
-        
+
 
     }
 
-.Menu-link:hover {
-    /*background-color:red;*/
-    border-radius:10px;
-    
-    
 }
-
-.Menu-link:active {
-    color:black;
-    font-size:150%;
-}
-
-/*
-.Menu-links a {
-    color:white;
-    text-decoration: none;
-
-}
-
-.Menu-link .contact {
-    scroll-behavior: smooth;
-}
-*/
-
-}
-
-
