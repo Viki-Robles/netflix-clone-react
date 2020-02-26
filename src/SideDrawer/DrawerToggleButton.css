@@ -1,5 +1,11 @@
-.tooggle-button {
+.toogle-button {
     height:48px;
     width:36px;
+    background: transparent;
+    border: none;
+    cursor:pointer;
+}
 
+.toogle-button:focus {
+    outline:none;
 }
