@@ -14,10 +14,10 @@ export default function ToolBar() {
                     <div className="spacer"></div>
                     <div className="toolbar_navigation-items">
                         <ul>
-                            <li><br/>About</li>
-                            <li><br/>Series</li>
-                            <li><br/>Contact</li>
-                            <li><br/>Sign Up</li>
+                            <li>About</li>
+                            <li>Series</li>
+                            <li>Contact</li>
+                            <li>Sign Up</li>
                         </ul>
                     </div>
                 </nav>

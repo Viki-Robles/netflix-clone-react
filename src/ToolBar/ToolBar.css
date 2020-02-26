@@ -1,5 +1,7 @@
 
-
+* {
+    font-family: sans-serif;
+}
 .toolbar {
     position:fixed;
     width:100%;
@@ -7,6 +9,8 @@
     height:56px;
     top:0;
     left:0;
+    padding-top: 15px;
+    z-index:3;
 }
 
 .toolbar_navigation {
@@ -26,7 +30,8 @@
 
 .toolbar_navigation-items li {
     padding: 0 0.5rem;
-    font-size:25px;
+    font-size:18px;
+    font-family: sans-serif;
     
     
 }

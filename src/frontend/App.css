@@ -22,9 +22,10 @@ h1 {
   font-size: 60px;
   text-align: center;
   justify-content: center;
-  padding-top:80px;
+  padding-top:200px;
   vertical-align: middle;
   cursor: pointer;
+  vertical-align: middle;
 
 
   
@@ -109,7 +110,7 @@ margin-bottom:30px;
   bottom:-100px;
   width:100%;
   opacity: 6px;
-  background-color: firebrick; 
+  background-color: red; 
   text-align: center;
   border-radius: 1px;
   align-items: center;
@@ -139,9 +140,10 @@ margin-bottom:30px;
     font-size: 60px;
     text-align: center;
     justify-content: center;
-    padding-top:60px;
+    padding-top:200px;
     vertical-align: middle;
     cursor: pointer;
+    vertical-align: middle;
    
    
   }
