@@ -11,15 +11,17 @@ import Footer from './Footer/footer';
 import ScrollToTop from './scrollmenu/scrollmenu';
 import SignUp from './signup/signup';
 import ToolBar from '../ToolBar/ToolBar';
+import SideDrawer from '../SideDrawer/SideDrawer';
 
 class App extends Component {
   render(props) {
     return (
+      <div style={{height: "100%"}}>
       <Router>
         <ScrollToTop />
         <div className="App">
           <ToolBar/>
-          
+          <SideDrawer/>
             <h1>KodFlix</h1>
           
           <div>
@@ -38,7 +40,7 @@ class App extends Component {
           </div>
         </div>
       </Router>
-
+      </div>
 
     );
 

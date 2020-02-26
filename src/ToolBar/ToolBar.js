@@ -1,6 +1,6 @@
 import React from 'react';
+
 import './ToolBar.css';
-import '../SideDrawer/DrawerToggleButton'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
 export default function ToolBar() {

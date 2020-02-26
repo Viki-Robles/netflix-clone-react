@@ -1,0 +1,10 @@
+.backdrop {
+    position: fixed;
+    width: 400px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    height:100%;
+    top:0;
+    left:0;
+    
+    
+}
