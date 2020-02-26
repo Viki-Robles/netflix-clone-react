@@ -38,7 +38,7 @@ class App extends Component {
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer/>;
+      
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
 
@@ -49,7 +49,7 @@ class App extends Component {
         <ScrollToTop />
         <div className="App">
           <ToolBar drawerClickHandler = {this.drawerToggleClickHandler}/>
-          {sideDrawer}
+          <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}
             <h1>KodFlix</h1>
           

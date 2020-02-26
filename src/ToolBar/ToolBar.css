@@ -39,3 +39,23 @@
 .spacer {
     flex:1;
 }
+
+
+@media(max-width: 768px) {
+    .toolbar_navigation-items {
+        display: none;
+    }
+}
+
+@media(min-width:769px) {
+    .side-drawer {
+        display:none;
+    }
+
+}
+
+@media(min-width:769px) {
+    .toolbar_toggle-button {
+        display:none;
+    }
+}
