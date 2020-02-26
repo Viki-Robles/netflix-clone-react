@@ -9,7 +9,7 @@ export default function ToolBar() {
             <header className="toolbar">
                 <nav className="toolbar_navigation">
                     <div>
-                        <DrawerToggleButton/>
+                    <DrawerToggleButton/>
                     </div>
                     <div className="spacer"></div>
                     <div className="toolbar_navigation-items">
