@@ -41,6 +41,7 @@
     text-decoration: none;
     color:white;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
 
 .spacer {
