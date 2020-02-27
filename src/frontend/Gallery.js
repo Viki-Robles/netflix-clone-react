@@ -21,7 +21,7 @@ export default function Gallery(props) {
         }
       </div>
       <br/>
-        <Footer/>
+        
 
     </div>
 

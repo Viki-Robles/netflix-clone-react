@@ -64,7 +64,7 @@ class App extends Component {
               </Switch>
             </div>
             <br />
-            
+            <Footer/>
             
           </div>
         </div>
