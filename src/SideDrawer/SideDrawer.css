@@ -1,6 +1,6 @@
 .side-drawer {
     height: 100%;
-    background:red;
+    background:linear-gradient(45deg, #ff0f00, transparent);
     box-shadow: 2px 0px 7px rgba(29, 23, 23, 0.5);
     position: fixed;
     top:0;
@@ -22,6 +22,7 @@
     color:white;
     list-style: none;
     font-weight: bold;
+    font-size:25px;
     
    
     
