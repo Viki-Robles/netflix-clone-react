@@ -32,14 +32,28 @@
     padding: 0 0.5rem;
     font-size:18px;
     font-family: sans-serif;
+    font-weight: bold;
     
     
+}
+
+.toolbar_navigation-items ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
 }
 
 .spacer {
     flex:1;
 }
 
+.toolbar_navigation-items ul li:hover {
+    color:black;
+}
+
+.toolbar_navigation-items ul li a:hover {
+    color:black;
+}
 
 @media(max-width: 768px) {
     .toolbar_navigation-items {
@@ -57,5 +71,11 @@
 @media(min-width:769px) {
     .toolbar_toggle-button {
         display:none;
+    }
+}
+
+@media(max-width:769px) {
+    .toolbar {
+        background-color:transparent;
     }
 }

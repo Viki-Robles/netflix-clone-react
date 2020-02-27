@@ -15,9 +15,18 @@
 
 .side-drawer.open {
     transform: translateX(0);
+    display:flex;
 }
 
 .side-drawer ul li {
-    color:black;
+    color:white;
+    list-style: none;
+    font-weight: bold;
     
+   
+    
+}
+
+.side-drawer.open ul {
+    justify-content: space-evenly;
 }
