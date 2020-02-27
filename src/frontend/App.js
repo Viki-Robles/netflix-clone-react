@@ -64,6 +64,9 @@ class App extends Component {
               </Switch>
             </div>
             <br />
+            <div className="main" id="section2">
+              Contact
+            </div>
             <Footer/>
             
           </div>

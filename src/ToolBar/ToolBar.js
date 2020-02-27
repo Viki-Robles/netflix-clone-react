@@ -17,8 +17,8 @@ const ToolBar = props => {
                         <ul>
                             <li>About</li>
                             <li>Series</li>
-                            <li>Contact</li>
-                            <li>Sign Up</li>
+                            <li><a href="#section2">Contact</a></li>
+                            <li><a href="/signup">Sign Up</a></li>
                         </ul>
                     </div>
                 </nav>
