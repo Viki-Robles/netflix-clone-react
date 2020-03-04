@@ -25,6 +25,7 @@ width: 70%;*/
 
 .side-drawer {
     margin: 0;
+    display: flex;
 }
 
 /*box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
