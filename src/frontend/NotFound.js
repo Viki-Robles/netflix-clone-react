@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 /*export default class NotFound extends React.Component {
     return () {
@@ -8,11 +7,5 @@ import React from 'react';
 }*/
 
 export default function NotFound() {
-    return (
-       
-        <div className="notFound">Ooops..This page doesn't exist.. :(</div>
-      
-    ); 
-
-    
+  return <div className="notFound">Ooops..This page doesn't exist.. :(</div>;
 }

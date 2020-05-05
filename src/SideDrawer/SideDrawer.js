@@ -1,21 +1,21 @@
-import React from 'react';
-import './SideDrawer.css';
+import React from "react";
+import "./SideDrawer.css";
 
 const sideDrawer = props => {
-    let drawerClasses = "side-drawer";
-    if (props.show) {
-        drawerClasses = "side-drawer open";
-    }
-    return (
-    <nav className={drawerClasses} >
-        <ul>
-            <li>About</li>
-            <li>Series</li>
-            <li>Contact</li>
-            <li>Sign Up</li>
-        </ul>
+  let drawerClasses = "side-drawer";
+  if (props.show) {
+    drawerClasses = "side-drawer open";
+  }
+  return (
+    <nav className={drawerClasses}>
+      <ul>
+        <li>About</li>
+        <li>Series</li>
+        <li>Contact</li>
+        <li>Sign Up</li>
+      </ul>
     </nav>
-
-    )};
+  );
+};
 
 export default sideDrawer;

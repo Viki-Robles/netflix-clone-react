@@ -1,58 +1,50 @@
 .App {
   text-align: center;
-  overflow:hidden;
+  overflow: hidden;
   background-color: black;
-  
 }
 
 body {
-  color:black;
+  color: black;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 h1 {
-  color:red;
-  background-color:black;
+  color: red;
+  background-color: black;
   font-family: sans-serif;
   font-size: 60px;
   text-align: center;
   justify-content: center;
-  padding-top:200px;
+  padding-top: 200px;
   vertical-align: middle;
   cursor: pointer;
   vertical-align: middle;
-
-
-  
 }
 
 /*h1 {display: inline-block;}*/
 
-
-
 h2 {
-  color:white;
+  color: white;
   font-size: 40px;
   justify-content: center;
   position: absolute;
   text-align: center;
   width: 100%;
-  
 }
 
-
 .background-image {
-background-image: url("./mollygame.jpg") ;
-width:100%;
-background-repeat: no-repeat;
-background-size: cover;
-margin-bottom:30px;
-z-index:1;
+  background-image: url("./mollygame.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  z-index: 1;
 }
 
 .container {
@@ -60,58 +52,51 @@ z-index:1;
   flex-wrap: wrap;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:auto;
+  grid-template-rows: auto;
   justify-content: space-evenly;
-  margin:0;
+  margin: 0;
   overflow: hidden;
-  padding-top:30%;
-  
+  padding-top: 30%;
 }
-
 
 .box {
   /*flex-basis: 50px;
   flex:1;*/
   border-radius: 4px;
-  padding:0;
-  border:1px solid black;
-  flex:1;
-  position:relative;
+  padding: 0;
+  border: 1px solid black;
+  flex: 1;
+  position: relative;
   transition: margin 1s;
- 
 }
 
 .box:hover .overlay {
-  height:15%;
-  bottom:0;
-  
+  height: 15%;
+  bottom: 0;
 }
 
 .box-details {
-  height:90vh;
+  height: 90vh;
   background-size: cover;
   background-position: center;
-  border:solid white;
-  width:100%;
-  margin:100%;
-  
+  border: solid white;
+  width: 100%;
 }
 
 .box:hover {
-  margin:0;
+  margin: 0;
 }
-
 
 .overlay {
   display: flex;
-  transition:bottom ease-in-out 0.7s;
+  transition: bottom ease-in-out 0.7s;
   /*display: none;*/
-  position:absolute;
-  left:0;
-  bottom:-100px;
-  width:100%;
+  position: absolute;
+  left: 0;
+  bottom: -100px;
+  width: 100%;
   opacity: 6px;
-  background-color: red; 
+  background-color: red;
   text-align: center;
   border-radius: 1px;
   align-items: center;
@@ -119,50 +104,32 @@ z-index:1;
 
 .cover-image {
   background-image: none;
-
 }
 
 .notFound {
-  display:block;
+  display: block;
   position: absolute;
 }
 
-
-
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .container {
     display: block;
   }
 
   h1 {
-    color:red;
-    background-color:black;
+    color: red;
+    background-color: black;
     font-family: sans-serif;
     font-size: 60px;
     text-align: center;
     justify-content: center;
-    padding-top:200px;
+    padding-top: 200px;
     vertical-align: middle;
     cursor: pointer;
     vertical-align: middle;
-   
-   
   }
-  
-  h1 {display: inline-block;}
 
- 
+  h1 {
+    display: inline-block;
+  }
 }
-
-
-
-
-
- 
-
-
-
-
-
-
-

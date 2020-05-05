@@ -1,29 +1,28 @@
-import React from 'react';
-import MovieTitle from './MovieTitle';
-import getMovieTitle from './gallery-get';
+import React from "react";
+import MovieTitle from "./MovieTitle";
+import getMovieTitle from "./gallery-get";
 
 export default function Gallery(props) {
   return (
-    <div className={props.match.params !== '/:details' ? "background-image": "empty"}>
+    <div
+      className={
+        props.match.params !== "/:details" ? "background-image" : "empty"
+      }
+    >
       <div className="container cover-image">
-        {
-
-
-          getMovieTitle().map(movieTitle => (
-            <MovieTitle key={movieTitle.id}
-              id={movieTitle.id}
-              name={movieTitle.name}
-              logo={movieTitle.logo} 
-              videoId={movieTitle.videoId}
-              cover={movieTitle.cover}/>
-          ))
-        }
+        {getMovieTitle().map(movieTitle => (
+          <MovieTitle
+            key={movieTitle.id}
+            id={movieTitle.id}
+            name={movieTitle.name}
+            logo={movieTitle.logo}
+            videoId={movieTitle.videoId}
+            cover={movieTitle.cover}
+          />
+        ))}
       </div>
-      <br/>
-        
-
+      <br />
     </div>
-
   );
 }
 
