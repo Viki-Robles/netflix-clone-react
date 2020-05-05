@@ -5,12 +5,12 @@ export default function Footer() {
         
           /*<div className={props.match.params !== '/contact' ? ${Footer}: "empty"}>*/
 
-             <footer class="footer" id="footer">
+             <footer className="footer" id="footer">
                   <ul>
                     <li>Address: 199 Eade Road, N4 1DN, London</li>
                     <li>Email: vasiliki.robles@gmail.com</li>
                   </ul>
-                  <div class='copywrite'>
+                  <div className='copywrite'>
                     <p>Copywrite 2019. KodFlix all rights reserved.</p>
                   </div>  
                 </footer>

@@ -1,120 +1,98 @@
-
-
 .Menu {
-    display:flex;
-    justify-content: flex-end;
-    overflow:hidden;
-    width: 100vw;
-    cursor: pointer; 
-      
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 100vw;
+  cursor: pointer;
 }
 
 .Menu-link .contact {
-    color:white;
+  color: white;
 }
 
 .Menu-links a {
-    color:white;
-    text-decoration: none;
-    margin-bottom:5px;
-
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
 }
 
 .Menu-links {
-    transition: transform ease 0.7s;
-    transform: translateX(0);
-    will-change: transform;
-    color:white;
-    position: relative;
-    top:0;
-    bottom:0;
-    width: 200px;
-    padding-top:100px;
-    /*right: -200px;*/
-    overflow: hidden;
-    z-index:1;
-    background-color:transparent;
-    border-radius:4px;
-    border:red solid 2px;
-    
+  transition: transform ease 0.7s;
+  transform: translateX(0);
+  will-change: transform;
+  color: white;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  padding-top: 100px;
+  /*right: -200px;*/
+  overflow: hidden;
+  z-index: 1;
+  background-color: transparent;
+  border-radius: 4px;
+  border: red solid 2px;
 }
 
 .Menu-links.is-expanded {
-    /*right: 0;*/
-    transform: translateX(100%);
-    
-
+  /*right: 0;*/
+  transform: translateX(100%);
 }
 
 .Menu-link {
-   padding:20px;
-   
+  padding: 20px;
 }
 
-.MenuButton { 
-    position:relative;
-    display:block;
-    padding:15px;
-    margin-top:15px;
-    z-index: 2;
-    color:red;
-    font-size: 15 px;
-    background-color:transparent;
-    border:solid red 3px;
-    border-radius:4px;
-    font-size:18px;
-    height:80px;
-    left:180px;
-
-    
+.MenuButton {
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin-top: 15px;
+  z-index: 2;
+  color: red;
+  font-size: 15 px;
+  background-color: transparent;
+  border: solid red 3px;
+  border-radius: 4px;
+  font-size: 18px;
+  height: 80px;
+  left: 180px;
 }
 
 /*Desktop Version*/
 
-@media(min-width:900px) {
-   
-    .Menu-links {
-        padding-top:50px;
-    }
-   
-
+@media (min-width: 900px) {
+  .Menu-links {
+    padding-top: 50px;
+  }
 }
 
-@media(min-width: 600px) {
-    
-    .Menu {
-        position:sticky;
-    }
-    .Menu-links.is-expanded {
-        /*right: 0;*/
-        transform: translateX(0);
-        
-    
-    }
-    .Menu-links { 
-        display:flex;
-        color:white;
-        justify-content: flex-end;
-        padding-top:0;
-        width:auto;
-        background-color:transparent;
-        padding-top:0;
-        position: relative;
-        border:none;
-        
-    }
+@media (min-width: 600px) {
+  .Menu {
+    position: sticky;
+  }
+  .Menu-links.is-expanded {
+    /*right: 0;*/
+    transform: translateX(0);
+  }
+  .Menu-links {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    padding-top: 0;
+    width: auto;
+    background-color: transparent;
+    padding-top: 0;
+    position: relative;
+    border: none;
+  }
 
-   
-    .Menu-link {
-        font-size:20px;
-        
-    }
+  .Menu-link {
+    font-size: 20px;
+  }
 
-    .MenuButton {
-        display: none;
-        justify-content: right;
-
-
-    }
-
+  .MenuButton {
+    display: none;
+    justify-content: right;
+  }
 }

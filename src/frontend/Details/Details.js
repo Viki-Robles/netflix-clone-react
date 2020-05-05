@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import getMovieTitle from '../gallery-get';
 import './Details.css';
@@ -47,7 +47,7 @@ export default class Details extends React.Component {
           <div className="content">
 
             <img className="image"
-              src={this.state.movietitle.cover}
+              src={this.state.movietitle.cover} alt=""
               />
             <Play videoId={this.state.movietitle.videoId}/>
             <Link to='/'><button className="button">Home</button></Link>

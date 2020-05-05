@@ -4,7 +4,6 @@ import './App.css';
 import Gallery from './Gallery';
 import Details from './Details/Details.js';
 import NotFound from './NotFound';
-import Menu from './Menu/Menu';
 import './Menu/Menu.css';
 import Play from './Play/Play';
 import Footer from './Footer/footer';

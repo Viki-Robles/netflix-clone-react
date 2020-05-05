@@ -1,23 +1,4 @@
-import BlackMirror from './images/BlackMirror.jpg';
-import bleach from './images/bleach.jpg';
-import casadepapel from './images/casadepapel.jpg';
-import FairyTail from './images/FairyTail.jpg';
-import Suits from './images/Suits.jpg';
-import TheWitcher from './images/TheWitcher.jpg';
-import blackmirrorcover from  './images/cover-images/blackmirrorcover.jpg';
-import bleachcover from './images/cover-images/bleachcover.jpg';
-import fairytailcover from './images/cover-images/fairytailcover.jpg';
-import moneyheist from './images/cover-images/moneyheist.jpg';
-import suitscover from './images/cover-images/suitscover.jpg';
-import thewitchercover from './images/cover-images/thewitchercover.jpg';
-
-
-
-
-
-
-
-export default function getMovieTitle() {
+module.exports = function getMovieTitle() {
 
     return [
 
@@ -33,14 +14,3 @@ export default function getMovieTitle() {
     ];
 
 }
-
-/**
- 
-I can create a new attribute named cover which will hold 
-the cover images info and then add it to the Gallery.js component
-and then with the params implemente it at the Deatils.js section.
-
-
- */
-
-
