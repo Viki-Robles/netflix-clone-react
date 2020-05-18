@@ -132,4 +132,12 @@ h2 {
   h1 {
     display: inline-block;
   }
+
+  .switch-wrapper {
+    position: relative;
+  }
+   
+  .switch-wrapper > div {
+    position: absolute;
+  }
 }
