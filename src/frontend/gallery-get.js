@@ -12,6 +12,7 @@ import suitscover from "./images/cover-images/suitscover.jpg";
 import thewitchercover from "./images/cover-images/thewitchercover.jpg";
 
 export default function getMovieTitle() {
+
   return [
     {
       id: "blackMirror",

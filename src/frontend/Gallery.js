@@ -3,6 +3,7 @@ import MovieTitle from "./MovieTitle";
 import getMovieTitle from "./gallery-get";
 
 export default function Gallery(props) {
+
   return (
     <div
       className={

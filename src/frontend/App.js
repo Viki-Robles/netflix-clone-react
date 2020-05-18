@@ -12,6 +12,7 @@ import SignUp from "./signup/signup";
 import ToolBar from "../ToolBar/ToolBar";
 import SideDrawer from "../SideDrawer/SideDrawer";
 import Backdrop from "../Backdrop/Backdrop";
+import { AnimatedSwitch } from "react-router-transition";
 
 class App extends Component {
   state = {
@@ -28,6 +29,13 @@ class App extends Component {
     this.setState({ sideDrawerOpen: false });
   };
 
+  componentDidMount() {
+    fetch("api/movies")
+      .then(res => res.json())
+      .then(movies =>
+        this.setState({ movies }, () => console.log("Movies fetched!", movies))
+      );
+  }
   render() {
     let sideDrawer;
     let backdrop;
@@ -40,6 +48,12 @@ class App extends Component {
       <div style={{ height: "100%" }}>
         <Router>
           <ScrollToTop />
+          <AnimatedSwitch
+            atEnter={{ opacity: 0.4 }}
+            atLeave={{ opacity: 0.6 }}
+            atActive= {{ opacity: 1 }}
+            className="switch-wrapper"
+          >
           <div className="App">
             <ToolBar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} />
@@ -63,6 +77,7 @@ class App extends Component {
               <Footer />
             </div>
           </div>
+          </AnimatedSwitch>
         </Router>
       </div>
     );
@@ -70,4 +85,3 @@ class App extends Component {
 }
 
 export default App;
-
