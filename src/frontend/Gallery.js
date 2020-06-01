@@ -3,6 +3,9 @@ import MovieTitle from "./MovieTitle";
 import getMovieTitle from "./gallery-get";
 
 export default function Gallery(props) {
+  fetch("/rest/shows/")
+  .then((response) => response.json)
+  .then((data) => console.log(data));
   return (
     <div
       className={
