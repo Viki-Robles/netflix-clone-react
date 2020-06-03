@@ -27,6 +27,8 @@ module.exports = function getMovieTitle() {
       details:
         "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
       videoId: "ndl1W4ltcmg",
+      logo: TheWitcher,
+      cover: thewitchercover
     },
     {
       id: "lacasadepapel",

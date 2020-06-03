@@ -8,3 +8,4 @@ app.get('/rest/movies', (req, res) => res.send(getMovieTitle()))
 app.get('/api/vicky', (req, res) => res.send('hello vicky!'))
 
 app.listen(port, () => console.log('Yes, server running :)'))
+
