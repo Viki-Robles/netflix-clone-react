@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a netflix mini clone with a nodejs backend server and a list of movies.
 
 ## Available Scripts
 
