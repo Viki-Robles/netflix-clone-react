@@ -1,5 +1,5 @@
 <div align="center">
-  <h1></h1>
+  <h1>Netflix</h1>
   <p>
     <a href="#getting-started">Getting Started</a>
      • <a href="#tech-stack">Tech stack</a>
